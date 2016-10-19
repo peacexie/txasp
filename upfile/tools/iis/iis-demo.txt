@@ -1,0 +1,29 @@
+﻿
+
+<IIsWebServer	Location ="/LM/W3SVC/1918721545"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="218.16.118.227:80:about.dg.gd.cn
+			218.16.118.227:80:yewu.dg.gd.cn"
+		ServerComment="about.dg.gd.cn"
+	> </IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1918721545/filters"
+		AdminACL="49634462f0893"
+	> </IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1918721545/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppPoolId="dgchr.com"
+		AppRoot="/LM/W3SVC/1918721545/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="D:\dgnet_web\about.dg.gd.cn"
+		ScriptMaps=".asa,C:\WI ...... 32.dll,1,GET,HEAD,POST|"
+		UNCPassword="4963446250074661"
+	> </IIsWebVirtualDir>
+<IIsWebDirectory	Location ="/LM/W3SVC/1918721545/root/aspnet_client"
+		AccessFlags="AccessRead"
+		DirBrowseFlags="0"
+	> </IIsWebDirectory>

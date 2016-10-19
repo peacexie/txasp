@@ -1,0 +1,673 @@
+﻿<?xml version ="1.0"?>
+<configuration xmlns="urn:microsoft-catalog:XML_Metabase_V64_0">
+<MBProperty>
+<IIS_Global	Location ="."
+		BINSchemaTimeStamp="8c8a3a0cd13ac701"
+		ChangeNumber="12520"
+		HistoryMajorVersionNumber="522"
+		SessionKey="496...682"
+		XMLSchemaTimeStamp="e6ec3c0cd13ac701"
+	>
+</IIS_Global>
+<IIS_ROOT	Location ="/"
+		AdminACL="496...126"
+	>
+</IIS_ROOT>
+<IIsComputer	Location ="/LM"
+		EnableEditWhileRunning="0"
+		EnableHistory="1"
+		MaxBandwidth="4294967295"
+		MaxHistoryFiles="10"
+	>
+</IIsComputer>
+<IIsConfigObject	Location ="/LM/EventManager"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/EventManager/SourceTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="..."
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="SMTP Server"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../EventTypes"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../Sources/..."
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../Sources/.../BindingManagerMoniker"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="@SEO.SEO"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../Sources/.../DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="smtpsvc 1"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/EXTENSIONS"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/EXTENSIONS/DCOMCLSIDS"
+	>
+	<Custom
+		Name="MD_IISADMIN_EXTENSIONS"
+		ID="1028"
+		Value="{61738644-F196-11D0-9953-00C04FD919C1}"
+		Type="MULTISZ"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location ="/LM/IISADMIN/PROPERTYREGISTRATION"
+	>
+	<Custom
+		Name="MD_METADATA_ID_REGISTRATION"
+		ID="1030"
+		Value="0-65535;Microsoft Reserved
+			65536-524288;Microsoft IIS Admin Objects Reserved"
+		Type="MULTISZ"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="INHERIT"
+	/>
+</IIsConfigObject>
+<IIsLogModules	Location ="/LM/Logging"
+		AdminACL="49634462a000000058000000400000002d432effacbdb82b8ceb206cbc42c8886b9e904d4c8fa367b79ec1f96e70e9a7926d9d6e5202d06dc84dc38e9d11ba367cd9bfc045f7faeb898aa0cdd2c0ea19aa2078c1546c5a8f103d7c3e29d902216b866b1a9b1a3baa0df4c4dde94fb1e22f45ccd13c2b0c19b2391d7e0220f41bed58077e58d769d7ab73ab3f033d6bb97f60d0a6b5f81152bf7845863f0979d579a7da18e154c688"
+	>
+</IIsLogModules>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging"
+		LogCustomPropertyServicesString="W3SVC
+			MSFTPSVC
+			SMTPSVC
+			NNTPSVC"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Date"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="date"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyMask="1"
+		LogCustomPropertyName="Date"
+		LogCustomPropertyNodeID="1"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/User Name"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="cs-username"
+		LogCustomPropertyMask="8"
+		LogCustomPropertyName="User Name"
+		LogCustomPropertyNodeID="6"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Extended Properties/Win32 Status"
+		LogCustomPropertyDataType="3"
+		LogCustomPropertyHeader="sc-win32-status"
+		LogCustomPropertyMask="2048"
+		LogCustomPropertyName="Win32 Status"
+		LogCustomPropertyNodeID="15"
+	>
+</IIsCustomLogModule>
+<IIsCustomLogModule	Location ="/LM/Logging/Custom Logging/Time"
+		LogCustomPropertyDataType="6"
+		LogCustomPropertyHeader="time"
+		LogCustomPropertyID="4013"
+		LogCustomPropertyMask="2"
+		LogCustomPropertyName="Time"
+		LogCustomPropertyNodeID="2"
+	>
+</IIsCustomLogModule>
+<IIsLogModule	Location ="/LM/Logging/Microsoft IIS Log File Format"
+		LogModuleId="{FF160657-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB87-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsLogModule	Location ="/LM/Logging/W3C Extended Log File Format"
+		LogModuleId="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogModuleUiId="{31DCAB88-BB3E-11d0-9299-00C04FB6678B}"
+	>
+</IIsLogModule>
+<IIsMimeMap	Location ="/LM/MimeMap"
+		MimeMap=".asx,video/x-ms-asf
+			.xml,text/xml
+			...................
+			.pcz,application/octet-stream
+			.acx,application/internet-property-stream"
+	>
+</IIsMimeMap>
+<IIsSmtpService	Location ="/LM/SmtpSvc"
+		AdminACL="496...109"
+		AuthFlags="AuthAnonymous"
+		.....
+		SmtpRemoteRetryThreshold="3"
+		SmtpServiceVersion="5"
+	>
+</IIsSmtpService>
+<IIsSmtpServer	Location ="/LM/SmtpSvc/1"
+		AdminACL="496...109"
+		BadMailDirectory="C:\Inetpub\mailroot\Badmail"
+		...
+		ServerBindings=":25:"
+		ServerComment="Default SMTP Virtual Server"
+	>
+	<Custom
+		Name="ServerCommand"
+		ID="1012"
+		Value="2"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsSmtpServer>
+<IIsSmtpAlias	Location ="/LM/SmtpSvc/1/Alias"
+	>
+</IIsSmtpAlias>
+<IIsSmtpDL	Location ="/LM/SmtpSvc/1/DL"
+	>
+</IIsSmtpDL>
+<IIsSmtpDomain	Location ="/LM/SmtpSvc/1/Domain"
+	>
+</IIsSmtpDomain>
+<IIsConfigObject	Location ="/LM/SmtpSvc/1/EventManager"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../DisplayName"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange Ntfs Store Driver"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../SinkClass"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="Exchange.NtfsDrv"
+		Type="STRING"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../SourceProperties"
+	>
+</IIsConfigObject>
+<IIsConfigObject	Location =".../SourceProperties/priority"
+	>
+	<Custom
+		Name="MD_0"
+		ID="0"
+		Value="28000"
+		Type="DWORD"
+		UserType="UNKNOWN_UserType"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsConfigObject>
+<IIsSmtpRoutingSource	Location ="/LM/SmtpSvc/1/RoutingSources"
+		SmtpDsFlags="9"
+		SmtpDsUseCat="0"
+	>
+</IIsSmtpRoutingSource>
+<IIsSmtpSessions	Location ="/LM/SmtpSvc/1/Sessions"
+	>
+</IIsSmtpSessions>
+<IIsSmtpUser	Location ="/LM/SmtpSvc/1/User"
+	>
+</IIsSmtpUser>
+<IIsSmtpInfo	Location ="/LM/SmtpSvc/Info"
+		LogModuleList="NCSA Common Log File Format,ODBC Logging,Microsoft IIS Log File Format,W3C Extended Log File Format"
+		MD_SERVER_CAPABILITIES="80831"
+		MD_SERVER_PLATFORM="1"
+		MajorIIsVersionNumber="6"
+		MinorIIsVersionNumber="0"
+	>
+</IIsSmtpInfo>
+<IIsWebService	Location ="/LM/W3SVC"
+		AccessFlags="AccessRead | AccessScript"
+		AllowKeepAlive="TRUE"
+		...
+		WAMUserPass="496344627000000022000000400000002d432efff5bd85abe1eb7c6ca1428188039efa4d6e8f9f67cd9ea9f95e70daa7926d49004e004400c810e1b03b7aefb8e3d86f98bf842c8c055963bd460f851ef48eda1246c712e91a49ca6723f03af0c9280e5c94d5af0b17690e815f6bfb1dcc753d75f5ba0233"
+		WebSvcExtRestrictionList="0,C:\WINDOWS\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data Connector
+			1,C:\WINDOWS\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes
+			1,C:\WINDOWS\system32\inetsrv\asp.dll,0,ASP,Active Server Pages
+			1,C:\WINDOWS\system32\php5isapi.dll,1,,php
+			0,C:\WINDOWS\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV
+			0,*.exe
+			0,*.dll"
+	>
+	<Custom
+		Name="UNCPassword"
+		ID="3003"
+		Value="496344625000000006000000400000002d432effadbd4d00591135dbfeb6c780f6a4879f1cb019b9563b7bfa36459a2733c6b3589d8d7b454ba291faf479cf900fbca83aa74128bdfb5660a13f0eba3aef4c9492d8be6763"
+		Type="STRING"
+		UserType="IIS_MD_UT_FILE"
+		Attributes="INHERIT | SECURE"
+	/>
+	<Custom
+		Name="UnknownName_2166"
+		ID="2166"
+		Value="1"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+	<Custom
+		Name="UnknownName_9202"
+		ID="9202"
+		Value="4294967295"
+		Type="DWORD"
+		UserType="IIS_MD_UT_SERVER"
+		Attributes="NO_ATTRIBUTES"
+	/>
+</IIsWebService>
+<IIsWebServer	Location ="/LM/W3SVC/1"
+		AppPoolId="DefaultAppPool"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		LogType="0"
+		ServerAutoStart="FALSE"
+		ServerBindings=":80:"
+		ServerComment="Default Web Site"
+		ServerSize="1"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1/Filters"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7202d46dc84ec38e9d11ba364fd9bfc065f5eeeb0388a0cdd3c1ea1c8a2078c4606e5a8f113f583ea2d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab91cd55518fd08c7c4fd13c2d006b6f23b9727fc05480d89fb0cd1341642e9a826c263699ae49cfb4f909f34e7e9787cbf9749b0ec3d0ebc7ecd27e5d6d2b5ca01"
+	>
+</IIsFilters>
+<IIsCertMapper	Location ="/LM/W3SVC/1/IIsCertMapper"
+	>
+</IIsCertMapper>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1/ROOT"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppPoolId="test1"
+		AppRoot="/LM/W3SVC/1/ROOT"
+		Path="e:\cx566\user5019\web"
+		ScriptMaps=".asa,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.asp,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cdx,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.cer,C:\WINDOWS\system32\inetsrv\asp.dll,5,GET,HEAD,POST,TRACE
+			.idc,C:\WINDOWS\system32\inetsrv\httpodbc.dll,5,GET,POST
+			.php,C:\WINDOWS\system32\php5isapi.dll,5
+			.shtm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.shtml,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST
+			.stm,C:\WINDOWS\system32\inetsrv\ssinc.dll,5,GET,POST"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/100"
+		AnonymousUserName="user5017u001"
+		AnonymousUserPass="496344627000000026000000400000002d432effcebdd7abd1eb4e6c9942bb880a9ef64d3d8fd067da9e87f91b70c7a7f16dea6ef9024400f8fc0d77f26f965d8c39f10233929405aa757245cdc17abbca56ea8eb7e2e982a7d5584cd86c813637850995cff095e397baadb935ddf3edb1a4b92f15914382"
+		AppPoolId="user5017-user2"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | EnableDefaultDoc"
+		LogFileDirectory="d:\virhost\user5017\user2\user5017u001\logfiles"
+		LogType="0"
+		ServerBindings=":80:user5017u001.a.dg.gd.cn
+			:80:chinasafesoft.com
+			:80:www.chinasafesoft.com
+			:80:www.chinasafesoft.com.cn
+			:80:www.chinasafesoft.cn"
+		ServerComment="user5017u001"
+	>
+</IIsWebServer>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/100/ROOT"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="默认应用程序"
+		AppIsolated="0"
+		AppRoot="/LM/w3svc/100/ROOT"
+		Path="d:\virhost\user5017\user2\user5017u001\web"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/1007096417"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="66.79.xxx.888:80:www.cnworm.com
+			66.79.xxx.888:80:cnworm.com"
+		ServerComment="cnworm.com"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/1007096417/filters"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7202d46dc84ec38e9d11ba364fd9bfc065f5eeeb0388a0cdd3c1ea1c8a2078c4606e5a8f113f583ea2d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab91cd55518fd08c7c4fd13c2d006b6f23b9727fc05480d89fb0cd1341642e9a826c263699ae49cfb4f909f34e7e9787cbf9749b0ec3d0ebc7ecd27e5d6d2b5ca01"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/1007096417/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppPoolId="cnworm.com"
+		AppRoot="/LM/W3SVC/1007096417/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="D:\vhost1\cnworm.com"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/837884441"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="66.79.xxx.888:80:www.dgbdw.cn"
+		ServerComment="dgbdw.cn"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/837884441/filters"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7202d46dc84ec38e9d11ba364fd9bfc065f5eeeb0388a0cdd3c1ea1c8a2078c4606e5a8f113f583ea2d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab91cd55518fd08c7c4fd13c2d006b6f23b9727fc05480d89fb0cd1341642e9a826c263699ae49cfb4f909f34e7e9787cbf9749b0ec3d0ebc7ecd27e5d6d2b5ca01"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/837884441/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/837884441/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="D:\vhost1\dgbdw.cn"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/838834080"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="66.79.xxx.888:80:www.chuangzhicn.com"
+		ServerComment="chuangzhicn.com"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/838834080/filters"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7202d46dc84ec38e9d11ba364fd9bfc065f5eeeb0388a0cdd3c1ea1c8a2078c4606e5a8f113f583ea2d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab91cd55518fd08c7c4fd13c2d006b6f23b9727fc05480d89fb0cd1341642e9a826c263699ae49cfb4f909f34e7e9787cbf9749b0ec3d0ebc7ecd27e5d6d2b5ca01"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/838834080/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/838834080/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="D:\vhost1\chuangzhicn.com"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/855739955"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="66.79.xxx.888:80:www.jinfengpaint.com"
+		ServerComment="jinfengpaint.com"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/855739955/filters"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7202d46dc84ec38e9d11ba364fd9bfc065f5eeeb0388a0cdd3c1ea1c8a2078c4606e5a8f113f583ea2d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab91cd55518fd08c7c4fd13c2d006b6f23b9727fc05480d89fb0cd1341642e9a826c263699ae49cfb4f909f34e7e9787cbf9749b0ec3d0ebc7ecd27e5d6d2b5ca01"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/855739955/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/855739955/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		HttpErrors="400,*,FILE,C:\WINDOWS\help\iisHelp\common\400.htm
+			401,1,FILE,C:\WINDOWS\help\iisHelp\common\401-1.htm
+			...
+			500,19,FILE,C:\WINDOWS\help\iisHelp\common\500.htm"
+		Path="D:\vhost1\jinfengpaint-com"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/935822042"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="66.79.xxx.888:80:www.1608cn.com"
+		ServerComment="1608cn.com"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/935822042/filters"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7202d46dc84ec38e9d11ba364fd9bfc065f5eeeb0388a0cdd3c1ea1c8a2078c4606e5a8f113f583ea2d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab91cd55518fd08c7c4fd13c2d006b6f23b9727fc05480d89fb0cd1341642e9a826c263699ae49cfb4f909f34e7e9787cbf9749b0ec3d0ebc7ecd27e5d6d2b5ca01"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/935822042/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/935822042/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		HttpRedirect="http://www.yixing.hk/"
+		Path="D:\vhost1\1608cn.com"
+		UNCPassword="496344625000000006000000400000002d432effadbd4d00591135dbfeb6c780f6a4879f1cb019b9563b7bfa36459a2733c6b3589d8d7b454ba291faf479cf900fbca83aa74128bdfb5660a13f0eba3aef4c9492d8be6763"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/975"
+		AnonymousUserName="user975"
+		AnonymousUserPass="496344626000000016000000400000002d432eff99bdcbab81eb516cce42a2885a9ee14d588fa367db89db07cf544cec34949b3cbef59a6445d8a4bda809928378d43110971c9450aa829447db36a88650109c7fc12598c63c99aa1a082ad1dbdf43931c26f35989"
+		AppPoolId="cx45"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | EnableDefaultDoc"
+		LogFileDirectory="e:\CX45\user975\logfiles"
+		LogType="0"
+		ServerBindings=":80:user975.us1.3wnic.net
+			:80:sdbz.cn
+			:80:www.sdbz.cn"
+		ServerComment="user975"
+	>
+</IIsWebServer>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/975/ROOT"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="默认应用程序"
+		AppIsolated="0"
+		AppRoot="/LM/w3svc/975/ROOT"
+		Path="e:\CX45\user975\web"
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/990996507"
+		AuthFlags="0"
+		LogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
+		ServerAutoStart="TRUE"
+		ServerBindings="66.79.xxx.888:80:www.filexair.com"
+		ServerComment="filexair.com"
+	>
+</IIsWebServer>
+<IIsFilters	Location ="/LM/W3SVC/990996507/filters"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7202d46dc84ec38e9d11ba364fd9bfc065f5eeeb0388a0cdd3c1ea1c8a2078c4606e5a8f113f583ea2d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab91cd55518fd08c7c4fd13c2d006b6f23b9727fc05480d89fb0cd1341642e9a826c263699ae49cfb4f909f34e7e9787cbf9749b0ec3d0ebc7ecd27e5d6d2b5ca01"
+	>
+</IIsFilters>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/990996507/root"
+		AccessFlags="AccessRead | AccessScript"
+		AppFriendlyName="Default Application"
+		AppIsolated="2"
+		AppRoot="/LM/W3SVC/990996507/Root"
+		AuthFlags="AuthAnonymous | AuthNTLM"
+		DirBrowseFlags="DirBrowseShowDate | DirBrowseShowTime | DirBrowseShowSize | DirBrowseShowExtension | DirBrowseShowLongDate | EnableDefaultDoc"
+		Path="D:\vhost1\filexair.com"
+	>
+</IIsWebVirtualDir>
+<IIsApplicationPools	Location ="/LM/W3SVC/AppPools"
+		AdminACL="49634462f0000000a4000000400000002d432effacbdb82b38eb206c6842c8886b9e904d4c8fa367b79e8df96b70e9a7926d916e7902d46dc84ec38e9d11ba364fd9bfc065f5eeeb0888a0cdd3c1ea1c8a2078c4606e5a8f113f583ea9d902244a836b1abb183bafe79c29127d58b60e3782e244aade5662dde51d473fa558a9f64a8c5c46f4851e54b6a11f77d81989ba2997bcb7b625b797211d5456dd0d9128bcc9fc75f1773e010981b37295499ae714a8fffbc94ab90c8bb3739e45a7e48133e0dfeadc4ef341d818b4a34836acddc808f3dae94907621bdb917db6a41ef749ac15c93a9deb90829338f0a94e73996a7e77499b7a0b"
+		AppPoolIdentityType="2"
+		...
+		StartupTimeLimit="90"
+	>
+</IIsApplicationPools>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cnworm.com"
+		AppPoolAutoStart="TRUE"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cx434"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cx44"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cx447"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cx45"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cx542"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cx566"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/cx95"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/DefaultAppPool"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/svadmin"
+		AppPoolAutoStart="TRUE"
+		AppPoolIdentityType="0"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/test1"
+		AppPoolAutoStart="TRUE"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/user5017-user2"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/virhost"
+		AppPoolIdentityType="2"
+	>
+</IIsApplicationPool>
+<IIsApplicationPool	Location ="/LM/W3SVC/AppPools/virhostsys"
+		AppPoolIdentityType="0"
+	>
+</IIsApplicationPool>
+<IIsFilters	Location ="/LM/W3SVC/Filters"
+		AdminACL="496...a01"
+		FilterLoadOrder=""
+	>
+</IIsFilters>
+<IIsFilter	Location ="/LM/W3SVC/Filters/Compression"
+	>
+</IIsFilter>
+<IIsCompressionScheme	Location ="/LM/W3SVC/Filters/Compression/deflate"
+		HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+		HcCreateFlags="0"
+		HcDoDynamicCompression="TRUE"
+		HcDoOnDemandCompression="TRUE"
+		HcDoStaticCompression="FALSE"
+		HcDynamicCompressionLevel="0"
+		HcFileExtensions="htm
+			html
+			txt"
+		HcOnDemandCompLevel="10"
+		HcPriority="1"
+		HcScriptFileExtensions="asp
+			dll
+			exe"
+	>
+</IIsCompressionScheme>
+<IIsCompressionScheme	Location ="/LM/W3SVC/Filters/Compression/gzip"
+		HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+		HcCreateFlags="1"
+		HcDoDynamicCompression="TRUE"
+		HcDoOnDemandCompression="TRUE"
+		HcDoStaticCompression="TRUE"
+		HcDynamicCompressionLevel="0"
+		HcFileExtensions="htm
+			html
+			txt"
+		HcOnDemandCompLevel="10"
+		HcPriority="1"
+		HcScriptFileExtensions="asp
+			dll
+			exe"
+	>
+</IIsCompressionScheme>
+<IIsCompressionSchemes	Location ="/LM/W3SVC/Filters/Compression/Parameters"
+		HcCacheControlHeader="max-age=86400"
+		HcCompressionBufferSize="8192"
+		HcCompressionDirectory="%windir%\IIS Temporary Compressed Files"
+		HcDoDiskSpaceLimiting="FALSE"
+		HcDoDynamicCompression="FALSE"
+		HcDoOnDemandCompression="TRUE"
+		HcDoStaticCompression="FALSE"
+		HcExpiresHeader="Wed, 01 Jan 1997 12:00:00 GMT"
+		HcFilesDeletedPerDiskFree="256"
+		HcIoBufferSize="8192"
+		HcMaxDiskSpaceUsage="100000000"
+		HcMaxQueueLength="1000"
+		HcMinFileSizeForComp="1"
+		HcNoCompressionForHttp10="TRUE"
+		HcNoCompressionForProxies="TRUE"
+		HcNoCompressionForRange="FALSE"
+		HcSendCacheHeaders="FALSE"
+	>
+</IIsCompressionSchemes>
+<IIsWebInfo	Location ="/LM/W3SVC/Info"
+		AdminACL="49634462a000000058000000400000002d432effacbdb82b8ceb206cbc42c8886b9e904d4c8fa367b79ec1f96e70e9a7926d9d6e5202d06dc84dc38e9d11ba367cd9bfc045f7faeb898aa0cdd2c0ea19aa2078c1546c5a8f103d7c3e29d902216b866b1a9b1a3baa0df4c4dde94fb1e22f45ccd13c2b0c19b2391d7e0220f41bed58077e58d769d7ab73ab3f033d6bb97f60d0a6b5f81152bf7845863f0979d579a7da18e154c688"
+		CustomErrorDescriptions="400,0,Bad Request,,0
+			401,1,Unauthorized,Logon failed,1
+			...
+			501,0,Not Implemented,,0
+			502,0,Bad Gateway,,1"
+		LogModuleList="NCSA Common Log File Format,Microsoft IIS Log File Format,W3C Extended Log File Format,ODBC Logging"
+		MD_SERVER_CAPABILITIES="129983"
+		MD_SERVER_PLATFORM="1"
+		MajorIIsVersionNumber="6"
+		MinorIIsVersionNumber="0"
+	>
+</IIsWebInfo>
+<IIsConfigObject	Location ="/LM/W3SVC/Info/Templates"
+	>
+</IIsConfigObject>
+<IIsWebServer	Location ="/LM/W3SVC/Info/Templates/Public Web Site"
+		ServerComment="Allows all users to browse static and dynamic content."
+	>
+</IIsWebServer>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/Info/Templates/Public Web Site/Root"
+		AccessFlags="AccessRead | AccessScript"
+		AuthFlags="AuthAnonymous"
+		IPSecurity=""
+	>
+</IIsWebVirtualDir>
+<IIsWebServer	Location ="/LM/W3SVC/Info/Templates/Secure Web Site"
+		ServerComment="Allows users with a Windows account to view static and dynamic content."
+	>
+</IIsWebServer>
+<IIsWebVirtualDir	Location ="/LM/W3SVC/Info/Templates/Secure Web Site/Root"
+		AccessFlags="AccessRead | AccessScript"
+		AuthFlags="AuthBasic | AuthNTLM | AuthMD5"
+		IPSecurity=""
+	>
+</IIsWebVirtualDir>
+</MBProperty>
+</configuration>

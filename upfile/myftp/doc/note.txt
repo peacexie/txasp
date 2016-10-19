@@ -1,0 +1,20 @@
+
+update Cnbbr_Template set 
+
+bbr_templatetop=(
+
+select bbr_templatetop 
+from Cnbbr_Template 
+where bbr_templateid=1
+
+) 
+
+where bbr_templateid=2
+
+Õâ¸öÓĞ´íÂğ? 
+
+update Cnbbr_Template set 
+
+ bbr_templateid=1
+
+where bbr_templateid=2

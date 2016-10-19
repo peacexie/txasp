@@ -1,0 +1,16 @@
+
+
+
+-- data 附目录 -----------
+
+cache 
+xadv  仅js文件
+xapp 
+
+-- demo 主目录 -----------
+
+config
+doc  
+para
+xadv  无js文件
+
