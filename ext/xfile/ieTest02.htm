@@ -1,0 +1,31 @@
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="YES!B/S!,web标准,杨正祎,博客园,实例代码" />
+<meta name="Description" content="这是一个简单YES!B/S!文章示例页面,来自杨正祎的博客,http://justinyoung.cnblogs.com/" />
+<title>YES!B/S!文章示例页面</title>
+<style type="text/css">
+.testIE6, .testIE7 {
+	display:none;
+}
+.testIE6 {
+	_display:block;
+}
+#testArea > .testIE7 {
+*display:block;
+}
+a.testIE8:before {
+	content:"(如果你用IE浏览器看到这个超链接，说明你的浏览器是IE8.或其他)";
+}
+</style>
+</head>
+<body>
+<div id="testArea"> 
+  <a class="testIE6" href="http://www.cnblogs.com" target="_blank" title="IE6、IE7、IE8共存"> 如果你用IE浏览器看到这个超链接，说明你的浏览器是IE6.或更低版本 </a> 
+  <a class="testIE7" href="http://www.cnblogs.com" target="_blank" title="IE6、IE7、IE8共存"> 如果你用IE浏览器看到这个超链接，说明你的浏览器是IE7. </a> 
+  <a class="testIE8" href="http://www.cnblogs.com" target="_blank" title="IE6、IE7、IE8共存"> </a> 
+</div>
+<!--end: testArea -->
+</body>
+</html>

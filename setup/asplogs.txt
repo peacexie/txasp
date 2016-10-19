@@ -1,0 +1,68 @@
+﻿
+=== temp ======================================================= 
+
+Maxthon Edition,
+Tencent Traveler Edition,
+heWorld Edition
+
+=== 已知bug ==================================================== 
+
+ * def - 连接,批处理 
+ * def - vdo资料
+
+ * get_pw.asp : Send Password to E-mail /       --- ?? 
+ * 优化(Response.Redirect,Response.End)         --- ??
+
+ * type类别设置                                 --- ??
+ * uc通行证                                     --- ??
+ * 上传类：无惧V1.2 / 风声V2.11 / 化境V2.0      --- ??
+
+=== 参数 ======================================================= 
+
+ *** set(Para)
+参数 资料模版:tmsPara.asp >> 自动缩略图
+参数 资料模版:tmsPara.asp >> 职位申请
+参数 文件模板:tmp_File.asp >> sTmpFile_Flag = false
+参数 版权备注:rKeyID.asp >> [ParRem]保留字,刷新项 
+配置 系统管理模式:Config_Mode >> isExpert
+资料 站务笔记,还淹死一条鱼,
+
+=== 更新 ======================================================= 
+
+2011-10-06 重新安装系统，除了一点备份，全归零了。
+2011-09-10 参数切换6个编辑器(CK3,Kind,xh1,U1,TinyMCE,FCK等)；
+2011-04-28 停止重大更新,转向PHP
+2010-01-17 Ver2.3,
+2010-08-04 Ver2.0,
+2010-01-27 代码减肥(eweb28:eweb55)
+2009-11-21 增加“编辑器”参数(FCK2.5:eweb28:eweb55)；
+2009-11-16 Ver1.5,
+2009-07-07 Ver1.1,废除eWebeditor编辑器,改用FCK编辑器
+2009-04-28 Ver1.0,
+
+=== 统计 =======================================================
+
+12345-12345-12345-12345-12345-12345-12345
+12.8  3.22  1.11  1.19  0.95   1.13 5.82
+(all) [db]  edfck myup  img    apis core
+
+                          org   rar   db
+ 2011-05-11 - 2.3.03033 - 12.8M/5.49M/3.22
+ core: End Function 486 
+ core: asp Files    547 
+
+Demo 2.3 --- peace.96327.com --- 59.36.99.131 
+
+=== 模版 =======================================================
+
+x8 F:\net\webs\eweb.files\t 
+x1 http://www.txjia.com/web/bb/           --- (def) 
+x1 http://www.changanchs.com/page/
+x3 F:\peace\study\css 10,11,12
+x1 http://www.csdn.net/company/about.html
+x1 F:\Work\peace_asp\demo\u\ext\ptemp\22eorder
+xn http://www.changanedu.com/ntopic/search.asp
+x9 http://site.vhostgo.com/webmall/ 成品网站 / 速成网站
+x1 http://demo.2799.cn/1294129825/index.php 休闲农庄
+
+=== end =======================================================

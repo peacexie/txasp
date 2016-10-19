@@ -1,0 +1,20 @@
+﻿.onShow {
+	background:url(onShow.png) 2px 3px no-repeat;
+	padding:3px 2px 4px 20px;
+	vertical-align:middle;
+}
+.onCorrect {
+	background:#E9FFEB url(onCorrect.png) 2px 3px no-repeat;
+	padding:3px 2px 4px 20px;
+	vertical-align:middle;
+}
+.onError {
+	background:#FFF2E9 url(onError.png) 2px 3px no-repeat;
+	padding:3px 2px 4px 20px;
+	vertical-align:middle;
+}
+.onFocus {
+	background:#E9F0FF url(onFocus.png) 2px 3px no-repeat;
+	padding:3px 2px 4px 20px;
+	vertical-align:middle;
+}

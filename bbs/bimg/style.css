@@ -1,0 +1,177 @@
+body, td, th, p {
+	font-size: 13px;
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	LINE-HEIGHT: 130%;
+}
+td, th {
+	margin:0;
+	PADDING:3px;
+}
+body {
+	margin: 1px;
+	background-color: #C8D9ED;
+}
+
+.SysPGary {
+	color:#888;
+}
+td.SysPage {
+	color: #FFFFFF;
+}
+.SysPBar, a.SysPBar:link, a.SysPBar:visited {
+	color:#333;
+}
+a.SysPBar:hover, a.SysPBar:active {
+	color:#f00;
+}
+
+.sysTopBG {
+	background-image:url(header.gif);
+}
+.sysBotBG {
+	background-image:url(footer.jpg);
+	background-repeat:repeat-x;
+}
+.sysTabC1 {
+    background-color: #5B8DC9;
+}
+.sysTabC2 {
+    background-color: #C8D9ED;
+}
+.sysTabGB {
+    padding:2px; 
+	background-color:#FFFFFF;
+}
+.BBSLink {
+	width:130px; 
+	height:15px;
+	overflow:hidden;
+	margin: 0px;
+	padding: 4px 1px 3px 5px;
+	text-align:left;
+	display: inline-block;
+	float: left;
+}
+
+.cont01 {
+	font-size: 14px;
+	LINE-HEIGHT: 150%;
+}
+td.cont01 {
+	font-size: 14px;
+	LINE-HEIGHT: 150%;
+}
+td.cont01 p {
+	font-size: 14px;
+	LINE-HEIGHT: 150%;
+}
+.note01 {
+	font-size: 12px;
+	LINE-HEIGHT: 150%;
+}
+.note02 {
+	font-size: 12px;
+	LINE-HEIGHT: 120%;
+	padding: 3px;
+	text-indent:24px;
+}
+
+FORM {
+	PADDING: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px
+}
+SELECT {
+	FONT-SIZE: 12px;
+	COLOR: #000;
+	LINE-HEIGHT: 20px
+}
+INPUT {
+	FONT-SIZE: 12px;
+	COLOR: #000;
+	LINE-HEIGHT: 20px
+}
+IMG {
+	BORDER-STYLE: none;
+}
+.fnt000 {
+	COLOR: #000
+}
+.fntFFF {
+	COLOR: #fff
+}
+.fntCCC {
+	COLOR: #ccc
+}
+.fnt666 {
+	COLOR: #666
+}
+.fnt0C0 {
+	COLOR: #0c0
+}
+.fnt096 {
+	COLOR: #096
+}
+.fnt690 {
+	COLOR: #690
+}
+.fnt00F {
+	COLOR: #00f
+}
+.fntF00 {
+	COLOR: #f00
+}
+.fntF0F {
+	COLOR: #f0f
+}
+.line01 {
+	line-height:1px;
+}
+.line02 {
+	line-height:2px;
+}
+.line03 {
+	line-height:3px;
+}
+.line05 {
+	line-height:5px;
+}
+.line08 {
+	line-height:8px;
+}
+.line13 {
+	line-height:13px;
+}
+
+A:link {
+	COLOR: #333366;
+	text-decoration:none;
+}
+A:visited {
+	COLOR: #333366;
+	text-decoration:none;
+}
+A:hover {
+	COLOR: #0000FF;
+	text-decoration:underline;
+}
+A:active {
+	COLOR: #FF00FF
+}
+
+A.LnkWhite:link {
+	COLOR:#ffffff;
+	text-decoration:none;
+}
+A.LnkWhite:visited {
+	COLOR: #ffffff;
+	text-decoration:none;
+}
+A.LnkWhite:hover {
+	COLOR: #FFFFCC;
+	text-decoration:underline;
+}
+A.LnkWhite:active {
+	COLOR: #FFFF66;
+}

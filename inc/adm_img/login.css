@@ -1,0 +1,195 @@
+/* 全局 */
+div,ul,form,table {font-size:12px;margin:0;clear:both;}
+li {list-style:none outside;}
+body {
+color: #333;
+margin: 0;
+font-size: 12px;
+line-height: 150%;
+background:#fff;
+text-align:left;
+word-break:break-all;
+}
+select { border:1px solid #666; } 
+a:link{text-decoration:none;color:#333;}
+a:visited {text-decoration:none;color:#333;}
+a:hover {text-decoration:underline;color:#666;}
+a:active {text-decoration:none;color:#666;}
+/* 常用属性 */
+.left {float:left;}
+.right {float:right;}
+
+.lgnCnr1 {
+	height:32px;
+	background-image:url(admin_top_left.png);
+}
+.lgnCnr2 {
+	width:10px;
+	height:32px;
+	background-image:url(admin_top_right.png);
+}
+.lgnCnr3 {
+	height:20px;
+	background-image:url(main_end_left.png);
+}
+.lgnCnr4 {
+	width:10px;
+	height:20px;
+	background-image:url(main_end_right.png);
+}
+.lgnCnr5 {
+	height:8px;
+	background-image:url(admin_top_left.png);
+	background-position:0px -32px;
+}
+.lgnCnr6 {
+	width:10px;
+	height:8px;
+	background-image:url(left_top.png);
+	background-position:-146px -2px;
+	xbackground-position: right top;
+}
+.lgnSid1 {
+	width:10px;
+	background-image:url(main_content_leftbg.png);
+}
+.lgnSid2 {
+	width:10px;
+	background-image:url(main_content_rightbg.png);
+	background-position:right;
+}
+.lgnCont {
+	xwidth:500px;
+	padding:8px 1px 0px 3px;
+}
+.lgnComp {
+	font-size:18px;
+	line-height:120%;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+}
+.lgnMod {
+	font-size:14px; 
+	color:#FFF;
+	margin:8px 1px 1px 50px;
+	padding:0px 0px 0px 5px;
+	font-weight:bold;
+	text-align:center;
+}
+.lgnSubj {
+	font-size:14px; 
+	color:#FFF;
+	padding:3px 0px 0px 24px;
+	font-weight:bold;
+	xtext-align:right;
+}
+.lgnTab {
+	background-color:#F0F0F0;
+}
+.lgnTab td {
+	font-size:14px; 
+	background-color:#FFF;
+	padding: 3px 8px;
+}
+.lgnMsg {
+	height:25px;
+	color:#F00;
+	font-size:14px;
+	background:url(main_content_topbg.png);
+	padding:0px 8px;
+	border:1px solid #247CBA;
+}
+.lgnRBox {
+	border:1px solid #F0F0F0;
+	border-top:0px;
+}
+.lgnRead {
+	font-size:14px;
+	line-height:150%;
+	padding:3px 8px 3px 8px;
+}
+.lgnRead13 {
+	font-size:13px;
+	line-height:150%;
+	padding:5px 8px 5px 8px;
+}
+.lgnLogoSite {
+	width:150px;
+	height:60px;
+	background:url(../../pfile/pub/admin.jpg) no-repeat bottom right;
+}
+.lgnLogoMember {
+	width:160px;
+	height:60px;
+	background:url(login3.jpg) no-repeat bottom right;
+}
+.lgnLogoAdmin {
+	background:url(../../pfile/pub/admin.jpg) no-repeat bottom right;
+}
+.lgnInpt { border:1px solid #666; }
+.lgnBtn1 {
+	width:180px;	
+}
+.lgnBtn2 {
+	width:60px;
+	padding:1px 0px 0px 0px;
+	margin:0px;
+}
+.lgnBtnSp {
+	width:56px; 
+	display:inline-block;	
+}
+
+.colF0F {color: #FF00FF}
+.colF00 {color: #FF0000}
+.col0F0 {color: #00FF00}
+.col00F {color: #0000FF}
+.colF03 {color: #FF0033}
+.col090 {color: #009900}
+.colCCC {color: #CCCCCC}
+.col999 {color: #999999}
+.col666 {color: #666666}
+
+.line01 {
+	line-height:1px;
+}
+.line02 {
+	line-height:2px;
+}
+.line03 {
+	line-height:3px;
+}
+.line05 {
+	line-height:5px;
+}
+.line08 {
+	line-height:8px;
+}
+.line10 {
+	line-height:10px;
+}
+.line12 {
+	line-height:12px;
+}
+.line15 {
+	line-height:15px;
+}
+.line18 {
+	line-height:18px;
+}
+.line20 {
+	line-height:20px;
+}
+.line24 {
+	line-height:24px;
+}
+.line30 {
+	line-height:30px;
+}
+.line40 {
+	line-height:40px;
+}
+.line50 {
+	line-height:50px;
+}

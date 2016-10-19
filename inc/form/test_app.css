@@ -1,0 +1,49 @@
+body, td, th {
+	font-size: 12px;
+}
+
+div.app32_div {
+	font-size:16px;
+	display:block;
+	padding:2px 1px 1px 8px;
+	border:1px solid #036;
+	margin:0px 0px 3px 0px;
+}
+div.app32_diu {
+	font-size:16px;
+	display:block;
+	padding:2px 1px 1px 8px;
+	border:1px solid #033;
+	margin:0px 0px 3px 0px;
+}
+
+div.app32_div span.f1px {
+	font-size:1px;
+	color:#FFF;
+	display:inline-block;
+	padding:0px;
+	border:0px;
+	margin:0px;
+}
+div.app32_div span.none {
+	display:none;
+	padding:0px;
+	border:0px;
+	margin:0px;
+}
+div.app32_div a {
+	display:none;
+}
+div.app32_div span.cF00 {
+	color:#F00;
+}
+div.app32_div span.c0F0 {
+	color:#0F0;
+}
+div.app32_div span.c00F {
+	color:#00F;
+}
+div.app32_div span.cF0F {
+	color:#F0F;
+}
+

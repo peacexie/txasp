@@ -1,0 +1,35 @@
+
+#frmWindow {
+	DISPLAY: none; CURSOR: default
+}
+#frmWindow .border {
+	BORDER-BOTTOM: #97a0aa 1px solid; BORDER-LEFT: #97a0aa 1px solid; BORDER-TOP: #97a0aa 1px solid; BORDER-RIGHT: #97a0aa 1px solid
+}
+#frmWindow .ntc {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 12px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; FONT: 12px/1.6 Verdana, Arial, Helvetica, sans-serif; BACKGROUND: #fff; PADDING-TOP: 12px
+}
+#frmWindow .buttonzone {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: #f7f7f7; PADDING-TOP: 10px
+}
+#frmWindow .Frm {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 500px; BORDER-LEFT-WIDTH: 0px
+}
+#frmWindow .windowcontent {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BACKGROUND: #fff; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 360px; OVERFLOW: auto; BORDER-LEFT-WIDTH: 0px
+}
+#frmWindow .topBar {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; BACKGROUND: #cbddef; HEIGHT: 20px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+#frmWindow .topBar .pwClose {
+	POSITION: absolute; 
+	WIDTH: 50px; 
+	HEIGHT: 20px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	TOP: 5px; 
+	RIGHT: 12px; 
+	CURSOR: pointer;
+	padding:1px;
+	border:1px solid #69F;
+}

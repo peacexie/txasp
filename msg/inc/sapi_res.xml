@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<SmsOutResponse>
+  <RequireInfo>
+    <tm><%=tm%></tm>
+    <%If tel<>"" Then%>
+    <tel><%=tel%></tel>
+    <%End If%>
+    <%If ct1<>"" Then%>
+    <ct1><%=ct1%></ct1>
+    <%End If%>
+    <%If npw<>"" Then%>
+    <npw><%=npw%></npw>
+    <%End If%>
+    <cs><%=cs%></cs>
+    <act><%=act%></act>
+  </RequireInfo>
+  <ResponseInfo>
+    <reState><%=reState%></reState>
+    <reInt><%=reInt%></reInt>
+    <reInfo><%=reInfo%></reInfo>
+    <reTime><%=reTime%></reTime>
+  </ResponseInfo>
+</SmsOutResponse>

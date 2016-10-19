@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>区别IE6、IE7、IE8、FireFox的CSS hack</title>
+<style type="text/css">
+<!--
+#hackTest, #note {
+	margin:0 auto;
+	text-align:center;
+}
+.note {
+	text-align:left;
+	text-indent:40px;
+}
+#hackTest {
+	width:200px;
+	height:30px;
+	border: 1px solid #000000;
+	color:#fff;
+	line-height:30px;
+}
+.hackColor {
+	background-color: #CC00FF;   /*所有浏览器都会显示为紫色*/
+	background-color: #FF0000\9; /*IE6、IE7、IE8会显示红色*/
+	*background-color: #0066FF;  /*IE6、IE7会变为蓝色*/
+	_background-color: #009933;  /*IE6会变为绿色*/
+}
+body, td, th {
+	font-size: 14px;
+	line-height: 150%;
+}
+-->
+</style>
+</head>
+<body>
+兼容IE6/IE7/IE8/FireFox的CSS hack收藏
+<div id="hackTest" class="hackColor">测试方块 zss</div>
+<div id="note"> <strong style="color:#009933">IE6 最终为绿色</strong> <strong style="color:#0066FF">IE7 最终为蓝色</strong> <strong style="color:#FF0000">IE8 最终为红色</strong> <strong style="color:#CC00FF">FireFox/Chrome或其它</strong>
+  <div class="note"> 今天看到hiccblogs里面一个关于IE8的兼容，一句话很简单，可惜只是针对IE兼容的，而且是建立在IE7的核心之上，局限性很大。自认为css兼容做的相对比较熟练，既然出了IE8，那就把IE8的兼容也研究一下。 </div>
+  <div class="note">CSS兼容性一直是大家头疼的问题，IE6、IE7和FF已经让大家够呛，在以前的文章中，很多这方面的知识介绍。IE8正式版发布以来,就想在找一种区别IE8正式版的方法.在百度搜索有很多个结果,google搜索的结果更多。IE8正式版和测试版在hack上是有很大区别的.而且网络上的方法几乎都是相互转载,出现频率最高的要数那张linxz.cn的hack图片了，可惜这张图里的方法对IE8正式版无效。
+    经过分析和总结,有了下面的行之有效的解决方案,或许以后还会有更好更简单的hack，但就目前来说这个方法可以解决燃眉之急.<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另：使用&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=EmulateIE7&quot; /&gt; 强制用IE7兼容模式浏览。<br />
+  </div>
+  <div class="note">
+    <ul>
+      <li style="list-style:none;"><strong style="color:#009933">Simple Example:</strong></li>
+      <li>"\9"　例:"margin:0px auto\9;".</li>
+      <li>这里的"\9"可以区别所有IE和FireFox.</li>
+      <li>"*"　IE6、IE7可以识别.IE8、FireFox不能.</li>
+      <li>"_"　IE6可以识别"_",IE7、IE8、FireFox不能</li>
+    </ul>
+  </div>
+</div>
+<br />
+<table width="100%" border="0" cellpadding="3" cellspacing="2" bgcolor="#CCCCCC">
+  <tr>
+    <td>表格测试</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<br />
+<pre style="line-height:110%; font-size:14px">
+如果要在js中向head添加style节点，可以用以下方法：
+
+function mountStyle( css, destinDoc )
+{
+    destinDoc = destinDoc || document;
+    var head = destinDoc.getElementsByTagName('head')[0];
+    var cssLink = destinDoc.createElement("style");
+    if (head)
+        head.appendChild(cssLink);
+ cssLink.setAttribute( "type", "text/css" ); 
+ // For IE
+ if( cssLink.styleSheet )
+ {
+  cssLink.styleSheet.cssText = css; 
+ }
+ // For Firefox
+ else
+ {
+  var cssText = destinDoc.createTextNode( css );
+  cssLink.appendChild(cssText );
+ }
+};
+</pre>
+本文来自CSDN博客，转载请标明出处：http://blog.csdn.net/ydshang/archive/2009/05/07/4158098.aspx
+</body>
+</html>

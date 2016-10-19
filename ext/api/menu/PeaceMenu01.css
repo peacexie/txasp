@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+table.menu01Tags td {
+	font-size:13px;
+	padding:0px 1px;
+	color:#FFF;
+	text-align:center;
+}
+table.menu01Tags td a:link, table.menu01Tags td a:visited, table.menu01Tags td a:active {
+	color:#FFF;
+	font-weight: bold;
+}
+table.menu01Tags td a:hover {
+	color: #fff000;
+	text-decoration: none;
+	font-weight: bold;
+}
+td.menu01Act {
+	color:#000;
+}
+td.menu01Act a {
+	color:#000;
+	display:inline-block;
+}
+td.menu01Act a:hover {
+	text-decoration: none;
+}
+td.menu01Subs div h3 {
+	font-size:12px;
+	font-weight:normal;
+	display:inline-block;
+	float:left;
+	padding:0px 5px 0px 5px;
+	margin:0px;
+}

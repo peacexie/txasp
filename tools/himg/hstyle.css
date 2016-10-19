@@ -1,0 +1,81 @@
+BODY {
+	FONT-SIZE: 14px; LINE-HEIGHT: 180%; 
+}
+TD {
+	FONT-SIZE: 14px; LINE-HEIGHT: 180%; 
+}
+TH {
+	FONT-SIZE: 14px; LINE-HEIGHT: 180%; 
+}
+P {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	MARGIN: auto;
+	WIDTH: 750px;
+	word-break: break-all;
+	word-wrap: break-word;
+	PADDING-TOP: 3px;
+}
+.dCode {
+	BORDER-RIGHT: #cccccc 3px solid; PADDING-RIGHT: 3px; BORDER-TOP: #cccccc 3px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #cccccc 3px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 3px solid; FONT-FAMILY: "Courier New", Courier, monospace; BACKGROUND-COLOR: #e0e0e0;
+	display:inline-block;
+}
+.dTitle {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; COLOR: #0000ff; TEXT-INDENT: 24px; PADDING-TOP: 3px;
+	background-color:#F0F0F0;
+}
+.FntCCC {
+	COLOR: #cccccc
+}
+.FntF0F {
+	COLOR: #ff00ff
+}
+.FntF00 {
+	COLOR: #ff0000
+}
+.Fnt00F {
+	COLOR: #0000ff
+}
+.Fnt999 {
+	COLOR: #999999
+}
+.fSiz09 {
+	FONT-SIZE: 9px
+}
+.fSiz12 {
+	FONT-SIZE: 12px
+}
+.fSiz14 {
+	FONT-SIZE: 14px
+}
+.xTest1 {
+	FONT-SIZE: 14px; COLOR: #ff0000
+}
+.xTest2 {
+	FONT-SIZE: 12px; COLOR: #ff00ff
+}
+.pDot {
+	WIDTH: 15px; FONT-FAMILY: "宋体"; HEIGHT: 15px
+}
+.pDot2 {
+	border:1px solid #6666FF; 
+	padding:2px 3px 0px 5px;
+	margin:8px 8px 0px 12px;
+}
+.pDot3 {
+	border:1px solid #CCCCCC; 
+	padding:2px 3px 0px 5px;
+	margin:5px 8px 0px 1px;
+}
+.pILink {
+	width:130px;
+	height:21px;
+	border:1px solid #CCCCCC; 
+	padding:1px 2px 1px 5px;
+	margin:1px 3px 1px 3px;
+	display:inline-block;
+	float:left;
+
+}
+.PadTop { padding-top:50px;}

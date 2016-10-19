@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+  <loc>http://www.google.com/hostednews/epa/2010-12-06_sitemap.xml</loc>
+  <lastmod>2010-12-06</lastmod>
+</sitemap>
+<sitemap>
+  <loc>http://www.google.com/hostednews/ap/2010-12-06_sitemap.xml</loc>
+  <lastmod>2010-12-06</lastmod>
+</sitemap>
+<sitemap>
+  <loc>http://www.google.com/hostednews/afp/2010-12-06_sitemap.xml</loc>
+  <lastmod>2010-12-06</lastmod>
+</sitemap>
+<sitemap>
+  <loc>http://www.google.com/hostednews/ukpress/2010-12-06_sitemap.xml</loc>
+  <lastmod>2010-12-06</lastmod>
+</sitemap>
+</sitemapindex>

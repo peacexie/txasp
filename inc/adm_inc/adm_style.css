@@ -1,0 +1,69 @@
+﻿body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+td,tr,th,body,p { font-size:12px; LINE-HEIGHT: 150%; }
+
+A:link { color:#333366; text-decoration:none; }
+A:visited { color:#3333FF; text-decoration:none; }
+A:hover { color:#0000ff; text-decoration:underline; }
+A:active {
+	color:#ff00ff;
+	text-decoration:underline;
+}
+
+input{
+    vertical-align:middle;	
+}
+table.tdFFF td {
+	background-color:#FFF;
+}
+
+.SysPBar, a.SysPBar:link, a.SysPBar:visited {
+	color:#333;
+}
+a.SysPBar:hover, a.SysPBar:active {
+	color:#f00;
+}
+.SysCont, td.SysCont, td.SysCont p {
+	font-size: 14px;
+	color:#333333;
+	LINE-HEIGHT: 180%;
+}
+.SysPGary{ color:#888; }
+
+.colF0F {color: #FF00FF}
+.colF00 {color: #FF0000}
+.col0F0 {color: #00FF00}
+.col00F {color: #0000FF}
+.colF03 {color: #FF0033}
+.col090 {color: #009900}
+.colCCC {color: #CCCCCC}
+.col999 {color: #999999}
+.col666 {color: #666666}
+.siz009L { color:000000; font-size:9px }
+.siz009B { color:000000; font-size:9px; font-weight:bold  }
+.siz012L { color:000000; font-size:12px }
+.siz012B { color:000000; font-size:12px; font-weight:bold  }
+.siz015L { color:000000; font-size:15px }
+.siz015B { color:000000; font-size:15px; font-weight:bold  }
+.siz609L { color:666666; font-size:9px }
+.siz609B { color:666666; font-size:9px; font-weight:bold  }
+.siz612L { color:666666; font-size:12px }
+.siz612B { color:666666; font-size:12px; font-weight:bold  }
+.siz615L { color:666666; font-size:15px }
+.siz615B { color:666666; font-size:15px; font-weight:bold  }
+.siz909L { color:999999; font-size:9px }
+.siz909B { color:999999; font-size:9px; font-weight:bold  }
+.siz912L { color:999999; font-size:12px }
+.siz912B { color:999999; font-size:12px; font-weight:bold  }
+.siz915L { color:999999; font-size:15px }
+.siz915B { color:999999; font-size:15px; font-weight:bold  }
+.sizF09L { color:FFFFFF; font-size:9px }
+.sizF09B { color:FFFFFF; font-size:9px; font-weight:bold  }
+.sizF12L { color:FFFFFF; font-size:12px }
+.sizF12B { color:FFFFFF; font-size:12px; font-weight:bold  }
+.sizF15L { color:FFFFFF; font-size:15px }
+.sizF15B { color:FFFFFF; font-size:15px; font-weight:bold  }

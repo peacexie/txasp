@@ -1,0 +1,64 @@
+body, td, th {
+	font-size: 12px;
+	line-height: 120%;
+}
+body {
+	margin: 3px;
+}
+form {
+	margin:0;
+	padding:0;
+	border: 0;
+}
+th { padding:1px 3px 2px 3px; text-align:center; }
+.tdCode { font-family:Courier; }
+.fnh100 {
+	line-height:100%;
+}
+.fnh150 {
+	line-height:150%;
+}
+.fnh180 {
+	line-height:180%;
+}
+.fns09 { font-size:9px;}
+.fns12 { font-size:12px;}
+.fns14 { font-size:14px;}
+.fns18 { font-size:18px;}
+.fntF00 {
+	color:#FF0000;
+}
+.fntF0F {
+	color:#FF00FF;
+}
+.fnt00F {
+	color:#0000FF;
+}
+.fnt0F0 {
+	color:#00FF00;
+}
+.fntCCC {
+	color:#CCCCCC;
+}
+.fnt666 {
+	color:#666666;
+}
+.bgPub {
+	background-image:url(clogo.jpg);
+	background-repeat:no-repeat;
+}
+.bgRBot {
+	background-position:right bottom;
+}
+.bgRTop {
+	background-position:right top;
+}
+.bgCenter {
+	background-position:center;
+}
+.bgLBot {
+	background-position:left bottom;
+}
+.bgLTop {
+	background-position:left top;
+}

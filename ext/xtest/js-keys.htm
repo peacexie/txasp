@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>js_Keywors关键字提取</title>
+<style type="text/css">
+table {
+	border:1px solid #888;
+	border-collapse:collapse;
+}
+td {
+	padding:5px;
+	border:1px solid #CCC
+}
+</style>
+<script src="../../inc/home/jskeys.js" type="text/javascript"></script>
+</head>
+<body>
+<table width="200" align="center">
+  <tr>
+    <td colspan="3">js_Keywors关键字提取！&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3"><textarea name="tabData" id="tabData" cols="72" rows="15"></textarea></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><input type="submit" name="btnConv1" id="btnConv1" value="提取1" onclick="demoKeys()" /></td>
+    <td width="33%" align="center"><input type="submit" name="btnConv2" id="btnConv2" value="提取2" onclick="demoKeyN()" /></td>
+    <td width="33%" align="center"><input type="button" name="btnReset" id="btnReset" value="Reset" onclick="strReset()" /></td>
+  </tr>
+</table>
+
+<div id="tabTest">
+<table border="1">
+  <tr>
+    <td width="50%" align="left" valign="top">东莞阳光网<br />
+      东莞阳光网（www.sun0769.com）是东莞市委市政府对外宣传的一个重要窗口，东莞四大媒体之一。发布内容权威，网民信任度高，是东莞地区最具影响力的新闻性综合网站。<br />
+      www.sun0769.com/ 2010-11-16 - 百度快照</td>
+    <td width="50%" align="left" valign="top">东莞网<br />
+      东莞地方门户,东莞网,东莞焦点,健康东莞,魅力东莞,东莞中介,东莞博客,东莞相册,东莞婚介,东莞交友,东莞论坛,阳光网，东莞商贸,东莞人才,东莞求职,东莞招聘,奇闻,幽默...<br />
+      www.dg.gd.cn/ 2010-11-16 - 百度快照 </td>
+    </tr>
+  <tr>
+    <td align="left" valign="top">东莞网_百度百科<br />
+      概述 东莞网是中国最大的本地权威资讯门户。现在的互联网信息浩瀚无边且真假难辨，尤其是贴近百姓的本地实用资讯更是难以找准找全，本地宝采用人工...共1次编辑<br /></td>
+    <td align="left" valign="top">东莞房地产门户-搜房房地产网<br />
+      东莞搜房房地产网隶属于中国最大的房地产家居网络平台搜房网，提供全面及时的房地产新闻资讯内容，为所有楼盘提供网上浏览、业主论坛和社区网站，房地产精英人物个人主页...<br />
+      dg.soufun.com/ 2010-11-16 - 百度快照 <br /></td>
+    </tr>
+  <tr>
+    <td align="left" valign="top">中国.东莞<br />
+      城市概况 制造名城 民营经济 名企名品 文化新城 城市名片 重点园区 东莞旅游 生态绿城 城市生活 社会经济 科普东莞 政民互动 民意征集 参政议政 网上调查 问题...<br />
+      www1.dg.gov.cn/publicfiles/business/htmlf ... 2010-11-5 - 百度快照</td>
+    <td align="left" valign="top">东莞人才网_东莞招聘网_智通人才网首页<br />
+      智通东莞人才网，东莞人才网站中最专业的人才招聘交流网, 东莞人才, 东莞招聘 ,首选智通东莞人才网_智通东莞招聘网!招聘会,招聘报,招聘网三维一体服务模式，猎头,培...<br />
+      dg.job5156.com/ 2010-11-16 - 百度快照 </td>
+    </tr>
+</table>
+</div>
+
+
+<script type="text/javascript">
+
+var myLocHref = 'http://localhost:88/asp/smod/info/info_add/';
+var myLocPos3 = myLocHref.indexOf('?'); 
+if(myLocPos3>0) { myLocHref = myLocHref.substring(0,myLocPos3); }
+
+var myLocPos4 = myLocHref.lastIndexOf('.');
+var myFileExt = '.htm';
+if(myLocPos4>0) { myFileExt = myLocHref.substring(myLocPos4); }
+  myFileExt = myFileExt.toLowerCase();
+  alert(myFileExt); // .asp
+
+var idData = document.getElementById('tabData');
+var idTest = document.getElementById('tabTest');
+
+function strReset(){
+  D = new Date(); 
+  str = D.toLocaleString()+",,,,"; //测试;
+  str += idTest.innerHTML;
+  idData.value = str;
+}
+function demoKeys(){
+  idTest.innerHTML = idData.value;
+  str = getKeys(idTest.innerText);
+  idData.value = str; 
+  idTest.innerHTML = str; 
+}
+function demoKeyN(){
+  idTest.innerHTML = idData.value;
+  str = getKeyN(idTest.innerText,5);
+  idData.value = str; 
+  idTest.innerHTML = str; 
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>

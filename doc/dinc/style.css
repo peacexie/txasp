@@ -1,0 +1,351 @@
+
+body, td, th, p {
+	font-size: 13px;
+	color: #000;
+	LINE-HEIGHT: 130%;
+}
+td, th {
+	margin:0;
+	PADDING:3px;
+}
+body {
+	margin: 1px;
+	background-color: #C8D9ED;
+}
+
+A:link { color:#333366; text-decoration:none; }
+A:visited { color:#3333FF; text-decoration:none; }
+A:hover { color:#0000ff; text-decoration:underline; }
+A:active { color:#ff00ff; text-decoration:underline; }
+
+td.mTopComm A:link,td.mTopComm A:visited { color:#333366; text-decoration:none; }
+
+.SysPGary {
+	color:#888;
+}
+td.SysPage {
+	color: #FFFFFF;
+}
+.SysPBar, a.SysPBar:link, a.SysPBar:visited {
+	color:#333;
+}
+a.SysPBar:hover, a.SysPBar:active {
+	color:#f00;
+}
+
+
+.mTopComm {
+	width: 90px;
+	text-align:center;
+	background-color:#DFE8FF;
+	border-top:2px solid #6D99CF;
+	border-left:2px solid #6D99CF;
+	border-bottom:1px solid #6D99CF;
+}
+.mTopAct {
+	width: 90px;
+	text-align:center;
+	background-color:#FFFFFF;
+	border-top:2px solid #6D99CF;
+	border-left:2px solid #6D99CF;
+	border-bottom:1px solid #DFE8FF;
+}
+.mTopRight {
+	border-right:2px solid #6D99CF;
+}
+.mTopLeft {
+	border-left:2px solid #6D99CF;
+}
+td.mTopAct, td.mTopAct a:link, td.mTopAct a:visited {
+	color:#f0f;
+}
+.mTypPub {
+	color: #FFF;
+	width: 8%;
+	letter-spacing: 3px;
+	background-color: #094C8D;
+	padding: 2px;
+}
+.mTypComm {
+	color: #FFF;
+	width: 10%;
+	background-color:#094C8D;
+	padding: 2px;
+}
+.mTypAct {
+	color: #094C8D;
+	width: 10%;
+	background-color: #FFF;
+	border:1px solid #094C8D;
+	border-bottom:1px solid #CCf;
+	padding: 2px;
+}
+td.mTypAct, td.mTypAct a:link, td.mTypAct a:visited {
+	color:#f0f;
+}
+
+.mInnID {
+	width:80px;
+	height:18px;
+	display:block;
+	float:left;
+	padding:1px 2px 0px 3px;
+	margin:0px 5px;
+	overflow:hidden;
+	line-height:18px;
+}
+.mInnID2 {
+	width:80px;
+	height:18px;
+	display:block;
+	float:left;
+	padding:3px 3px 2px 3px;
+	margin:0px 3px;
+	overflow:hidden;
+	line-height:150%;
+	xborder-bottom:1px solid #CCC;
+}
+
+a.InnLink:active {
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+a.InnLink:hover {
+	color: #000000;
+	text-decoration:underline;
+	cursor:hand;
+}
+a.InnLink:link {
+	color: #FFFFFF;
+	text-decoration: none
+}
+a.InnLink:visited {
+	color: #FFFFFF;
+	text-decoration: none
+}
+fnt_FFF {
+	color: #FFFFFF;
+	cursor:hand;
+}
+.sysCMid {
+	width:960px;
+	height:auto;
+	margin:auto;
+	padding:8px 8px;
+	background-color:#FFF;
+	border:2px solid #6D99CF;
+	border-top:0px;
+}
+
+.sysTopBG {
+	background-image:url(../../img/tool/header.gif);
+}
+.sysBotBG {
+	background-image:url(../../img/tool/footer.jpg);
+	background-repeat:repeat-x;
+}
+.sysTabC1 {
+    background-color: #5B8DC9;
+}
+.sysTabC2 {
+    background-color: #C8D9ED;
+}
+.sysTabGB {
+    padding:2px; 
+	background-color:#FFFFFF;
+}
+.BBSLink {
+	width:130px; 
+	height:15px;
+	margin: 0px;
+	padding: 4px 1px 3px 5px;
+	text-align:left;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+.cont01 {
+	font-size: 14px;
+	LINE-HEIGHT: 150%;
+}
+td.cont01 {
+	font-size: 14px;
+	LINE-HEIGHT: 150%;
+}
+td.cont01 p {
+	font-size: 14px;
+	LINE-HEIGHT: 150%;
+}
+.note01 {
+	font-size: 12px;
+	LINE-HEIGHT: 150%;
+}
+.note02 {
+	font-size: 12px;
+	LINE-HEIGHT: 120%;
+	padding: 3px;
+	text-indent:24px;
+}
+
+/* Public */
+.PubMargin {
+	margin:auto;
+}
+.PubLeft {
+	float: left;
+}
+.PubRight {
+	float: right;
+}
+.PubClear {
+	clear: both;
+	visibility: hidden;
+}
+.PubCFix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+} /* only FF */
+.PubHidden {
+	display: none;
+}
+.PubNoBorder {
+	border:none;
+}
+/*Public*/
+/* Link */
+div, form, img, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style-type:none;
+}
+form {
+	PADDING: 0px;
+	MARGIN: 0px;
+}
+select {
+	FONT-SIZE: 12px;
+	COLOR: #000;
+}
+input {
+	FONT-SIZE: 12px;
+	COLOR: #000;
+}
+img {
+	BORDER-STYLE: none;
+}
+/* Color */
+.cRed, a.cRed:link, a.cRed:visited {
+	color:#f00;
+}
+.cBlue, a.cBlue:link, a.cBlue:visited, a.cBlue:active {
+	color:#1f3a87;
+}
+.cDRed, a.cDRed:link, a.cDRed:visited {
+	color:#bc2931;
+}
+.cGray, a.cGray:link, a.cGray:visited {
+	color: #4F544D;
+}
+.cDGray, a.cDGray:link, a.cDGray:visited {
+	color: #666;
+}
+.cWhite, a.cWhite:link, a.cWhite:visited {
+	color:#fff;
+}
+.cBlack, a.cBlack:link, a.cBlack:visited {
+	color:#000;
+}
+a.cBlack:hover {
+	color:#bc2931;
+}
+.cYellow, a.cYellow:link, a.cYellow:visited {
+	color:#ff0;
+}
+.cGreen, a.cGreen:link, a.cGreen:visited {
+	color:#008000;
+}
+/* Font  */
+.fB {
+	font-weight: bold;
+}
+.f12px {
+	font-size:12px;
+}
+.f14px {
+	font-size:14px;
+}
+.fnt000 {
+	COLOR: #000
+}
+.fntFFF {
+	COLOR: #fff
+}
+.fntCCC {
+	COLOR: #ccc
+}
+.fnt666 {
+	COLOR: #666
+}
+.fnt0C0 {
+	COLOR: #0c0
+}
+.fnt096 {
+	COLOR: #096
+}
+.fnt690 {
+	COLOR: #690
+}
+.fnt00F {
+	COLOR: #00f
+}
+.fntF00 {
+	COLOR: #f00
+}
+.fntF0F {
+	COLOR: #f0f
+}
+.line01 {
+	line-height:1px;
+}
+.line02 {
+	line-height:2px;
+}
+.line03 {
+	line-height:3px;
+}
+.line05 {
+	line-height:5px;
+}
+.line08 {
+	line-height:8px;
+}
+.line10 {
+	line-height:10px;
+}
+.line13 {
+	line-height:13px;
+}
+/*以上全局css*/
+
+A.LnkWhite:link {
+	COLOR:#ffffff;
+	text-decoration:none;
+}
+A.LnkWhite:visited {
+	COLOR: #ffffff;
+	text-decoration:none;
+}
+A.LnkWhite:hover {
+	COLOR: #FFFFCC;
+	text-decoration:underline;
+}
+A.LnkWhite:active {
+	COLOR: #FFFF66;
+}

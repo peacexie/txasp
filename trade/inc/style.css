@@ -1,0 +1,135 @@
+
+/* import css */
+@import url("../../pfile/pub/spub.css"); 
+/*@import url("../img/rnd_nid/box_nid.css");*/
+body {
+	font-family:'宋体', arial;
+	margin:0;
+	padding:0;
+	background: #fff;
+}
+body, tr, td, p, div {
+	color:#000;
+	font-size:12px;
+	line-height:150%;
+}
+a:link, a:visited {
+	color:#333333;
+	text-decoration:none;
+}
+a:hover {
+	color:#FF00FF;
+}
+a:active {
+	color:#FF0033;
+}
+
+/* 根据网站定义 */
+
+.traNam1 {
+	width:720px;
+	height:40px;
+	font-size:24px;
+	font-family:'黑体';
+	color:#00F;
+	text-align:right;
+	overflow:hidden;
+	padding:8px 8px 0px 0px;
+}
+.traNam2 {
+	width:30px;
+	height:24px;
+	font-size:14px;
+	color:#000;
+	padding:8px 0px 0px 0px;
+}
+
+.Mnu01Cell {
+	padding:3px 8px;
+	letter-spacing:3px;
+	border:1px solid #669;
+	white-space: nowrap;
+}
+.Inf1Tbg {
+	height:29px;
+	background-image:url(../../pfile/pimg/qqimg21_12_02.gif);
+}
+.Inf1Tit {
+	width:120px;
+	height:15px;
+	padding:6px;
+	font-size:14px;
+	COLOR: #666666;
+	font-weight:bold;
+	background-image:url(../../pfile/pimg/qqimg21_12_01.gif);
+}
+.Inf1TMore {
+	width:60px;
+	height:12px;
+	padding:8px;
+	font-size:13px;
+	COLOR: #666666;
+	text-align:right;
+	padding-right:15px;
+	background-image:url(../../pfile/pimg/qqimg21_13.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.ItmPub {
+	height:20px;
+	display:block;
+	margin-left:5px;
+	text-align:left;
+	padding:5px 0px 0px 18px;
+	
+	background-image:url(../../pfile/pub/icon-01.gif);
+	background-position:-10px -435px;
+	background-repeat:no-repeat;
+	
+}
+.Itm01 {
+	width:420px;
+}
+.Itm02 {
+	width:215px;
+}
+.ItmTime {
+	width:80px;
+}
+.ItmLink {
+	width:220px;
+	height:20px;
+	padding:2px 1px 1px 6px;
+	display:block;
+}
+.ItmLPic {
+	height:120px;
+	display:block;
+	text-align:left;
+}
+.bgLine1 {
+	background-image:url(../../pfile/pimg/qqimg1_01_02.gif);
+}
+.pgArea {
+	width:950px;
+	height:auto;
+	border:0;
+	margin:0 auto;
+	clear:both;
+}
+.pgW100 {
+	width:100%;
+	margin:auto;
+}
+.pgW240 {
+	width:240px;
+	margin:auto;
+}
+.pgW450 {
+	width:448px;
+	margin:auto;
+}
+.pgBorder {
+	BORDER: #b6d9f7 1px solid;
+}
+

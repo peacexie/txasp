@@ -1,0 +1,102 @@
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+td,tr,th,body,p { font-size:12px; LINE-HEIGHT: 150%; }
+
+A:link { color:#333366; text-decoration:none; }
+A:visited { color:#3333FF; text-decoration:none; }
+A:hover { color:#0000ff; text-decoration:underline; }
+A:active { color:#ff00ff; text-decoration:underline; }
+
+/*Ô²½Çn32¿ªÊ¼*/
+.ruCnrPub {
+	background-image:url(../../inc/mem_img/rbox_n32_cnr.jpg);
+	background-repeat:no-repeat;
+	padding:10px; /*(Í¼Æ¬Ô²½Ç-1)/2*/
+}
+.ruCnrTLeft {
+	background-position:top left;
+}
+.ruCnrTRight {
+	background-position:top right;
+}
+.ruCnrBLeft {
+	background-position:bottom left;
+}
+.ruCnrBRight {
+	background-position:bottom right;
+}
+.ruTopBot {
+	background-image:url(../../inc/mem_img/rbox_n32_tb.jpg);
+	background-repeat:repeat-x;
+}
+.ruTBTop {
+	background-position:top;
+}
+.ruTBBot {
+	background-position:bottom;
+}
+.ruLeftRight {
+	background-image:url(../../inc/mem_img/rbox_n32_lr.jpg);
+	background-repeat:repeat-y;
+}
+.ruLRLeft {
+	background-position:left;
+}
+.ruLRRight {
+	background-position:right;
+}
+/*Ô²½Çn32½áÊø*/
+
+.SysPBar, a.SysPBar:link, a.SysPBar:visited {
+	color:#333;
+}
+a.SysPBar:hover, a.SysPBar:active {
+	color:#f00;
+}
+.SysCont, td.SysCont, td.SysCont p {
+	font-size: 14px;
+	color:#333333;
+	LINE-HEIGHT: 180%;
+}
+.SysPGary{ color:#888; }
+
+.fnt_Title {
+font-size:12px;
+font-weight:bold;
+color:#000000;
+}
+.fnt000 {
+	COLOR: #000
+}
+.fntFFF {
+	COLOR: #fff
+}
+.fntCCC {
+	COLOR: #ccc
+}
+.fnt666 {
+	COLOR: #666
+}
+.fnt0C0 {
+	COLOR: #0c0
+}
+.fnt096 {
+	COLOR: #096
+}
+.fnt690 {
+	COLOR: #690
+}
+.fnt00F {
+	COLOR: #00f
+}
+.fntF00 {
+	COLOR: #f00
+}
+.fntF0F {
+	COLOR: #f0f
+}

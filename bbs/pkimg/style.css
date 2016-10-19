@@ -1,0 +1,73 @@
+
+body, td, th, p {
+	font-size: 13px;
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	LINE-HEIGHT: 130%;
+}
+
+body {
+	MARGIN: 0px
+	background-color: #C8D9ED;
+}
+
+A:link {
+	COLOR: #333366;
+	text-decoration:none;
+}
+A:visited {
+	COLOR: #333366;
+	text-decoration:none;
+}
+A:hover {
+	COLOR: #0000FF;
+	text-decoration:underline;
+}
+A:active {
+	COLOR: #FF00FF
+}
+
+.unnamed1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.style1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.unnamed2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.unnamed3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.style8 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #d60000; TEXT-DECORATION: none
+}
+.style10 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: none
+}
+.style11 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #d60000; TEXT-DECORATION: none
+}
+.style12 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.style13 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #0000ff; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.style14 {
+	FONT-SIZE: 12px; COLOR: #ff0000
+}
+.style16 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.style17 {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.style21 {	COLOR: #ff0000
+}
+.style22 {	COLOR: #333333
+}
+.style18 {	COLOR: #ff3300
+}
+.style20 {	COLOR: #339900
+}

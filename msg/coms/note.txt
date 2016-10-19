@@ -1,0 +1,36 @@
+
+VBSDK.dll  北京东方博星科技 
+http://www.bucp.net/news/a0016.htm
+
+
+
+www.bucp.net
+sdk port:
+id: SDK-TTS-010-00069 -NG
+pw: 58336
+
+ZipCOM.dll 
+SDK-DHX-010-00011 -OK
+902130
+http://agent.bucp.net/websend/webservice.asmx?op=SendSMS
+
+
+
+7、HTTP方式、Webservice方式接口只需更改IP对应：
+  211.157.113.151------------117.79.237.2
+  211.157.113.56--------------117.79.237.3
+  211.157.113.39--------------117.79.237.4
+  211.157.113.148----------- -117.79.237.5
+8、增值服务如彩信 语音 传真 地址原来是http://211.157.113.56:8060/webservice.asmx
+  11月19日22点开始更改为 http:// 117.79.237.3:8060/webservice.asmx 
+
+
+
+软件序列号 序列号密码 特服号 
+3SDK-DHX-0240-OKRMO 3658456 3528846 
+3SDK-DHX-0240-OKRMP 2707748 3528853 
+3SDK-DHX-0240-OKRMQ 1710086 3528861 
+3SDK-DHX-0240-OKRMR 2285041 3528874 
+3SDK-DHX-0240-OKRMS 3036442 3528896 
+
+

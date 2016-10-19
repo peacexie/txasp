@@ -1,0 +1,25 @@
+﻿
+
+.tmf_p01Conu {
+	font-size:12px;
+	line-height:150%;
+}
+
+.tmf_p01Cont {
+	font-size:12px;
+	line-height:150%;
+	padding:8px;
+}
+
+.tmf_p01bgTit {
+	height:27px;
+    background-image:url(partner_title.jpg);
+	background-repeat:no-repeat;
+}
+
+.tmf_p01Gap {
+	font-size:12px;
+	font-weight:bold;
+    display:block;
+	padding:5px 0px 0px 30px;
+}
