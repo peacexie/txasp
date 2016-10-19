@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>Flash叠加</title>
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:10;
+	z-index:100;
+}
+#apDiv2 {
+	position:absolute;
+	width:200px;
+	height:10;
+	z-index:2;
+}
+-->
+</style>
+</head>
+<body>
+<table width="984" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="9" colspan="5"></td>
+  </tr>
+  <tr>
+    <td height="99" valign="top"><div id="apDiv1">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="450" height="150">
+          <param name="movie" value="flash_bg.swf" />
+          <param name="quality" value="high" />
+          <param name="wmode" value="transparent" />
+          <param name="wmode" value="opaque" />
+          <embed src="flash_bg.swf" quality="high" wmode="transparent" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="450" height="150"></embed>
+        </object>
+      </div>
+      <div id="apDiv2">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="150" height="150">
+          <param name="movie" value="clock03.swf" />
+          <param name="quality" value="high" />
+          <param name="wmode" value="transparent" />
+          <param name="wmode" value="opaque" />
+          <embed src="clock03.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="150" height="150"></embed>
+        </object>
+      </div></td>
+  </tr>
+  <tr>
+    <td height="9" colspan="5"></td>
+  </tr>
+</table>
+</body>
+</html>

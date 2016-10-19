@@ -1,0 +1,46 @@
+﻿<html>
+<body>
+<table border="0" align="center">
+  <tr>
+    <td>Test --- spic屏蔽大全2.htm<br>
+      body <br>
+      oncontextmenu=&quot;return false&quot; <br>
+      ondragstart=&quot;return false&quot; <br>
+      onselectstart =&quot;return false&quot; <br>
+      oncopy=&quot;document.selection.empty()&quot; <br>
+      onbeforecopy=&quot;return false&quot;</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.dg.gd.cn/" target="_blank">Link1</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.baidu.com/" target="_blank"><img src="http://www.baidu.com/img/logo-yy.gif" width="137" height="46" border="0" galleryimg='false'></a></td>
+  </tr>
+</table>
+<script language="javascript">
+
+function noClick(){return false;} 
+document.oncontextmenu = noClick; // OK
+document.onselectstart = noClick; // OK
+document.ondragstart   = noClick; // OK
+document.oncopy        = noClick; // OK
+document.onbeforecopy  = noClick; // OK
+// window.event.returnValue = false;
+
+function disKeys(){return false;}
+document.onkeydown = disKeys;
+/* 
+  with (event){
+    if ((event.ctrlKey && event.keyCode==82)){
+      event.keyCode = 0;
+      event.cancelBubble = true; 
+      return false;
+  } } 
+*/
+
+</script>
+<noscript>
+<iframe src="*.PeacePage"></iframe>
+</noscript>
+</body>
+</html>

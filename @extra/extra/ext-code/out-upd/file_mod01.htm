@@ -1,0 +1,179 @@
+﻿<!--[^#include file="../../../../news/inc_top3.asp"^]-->
+<table width="100%" border="0" align="center" cellpadding="2" cellspacing="3">
+  <tr>
+    <td valign="top"><table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="8"></td>
+        </tr>
+        <tr>
+          <td height="30"><div align="center" class="TD3"><strong>(^@InfSubject@^)</strong></div></td>
+        </tr>
+        <tr>
+          <td height="30" valign="top"><table width="95%" border="0" align="center" cellpadding="2" cellspacing="2">
+              <tr>
+                <td width="60%"><span class="style6 STYLE2"><font color="#666666">浏览次数： <span id='Peace_SetRead'>(000)</span></font></span></td>
+                <td align="center"><a href="javascript:setColor('FAFBE6')"><img 
+            height=10 alt=Click
+            src="/img/dot/color1.gif" 
+            width=10 border=0></a> <a href="javascript:setColor('FFF2E2')"><img 
+            height=10 alt=Click
+            src="/img/dot/color2.gif" 
+            width=10 border=0></a> <a href="javascript:setColor('FDE6E0')"><img 
+            height=10 alt=Click
+            src="/img/dot/color3.gif" 
+            width=10 border=0></a> <a href="javascript:setColor('F3FFE1')"><img 
+            height=10 alt=Click
+            src="/img/dot/color4.gif" 
+            width=10 border=0></a> <a href="javascript:setColor('DAFAFE')"><img 
+            height=10 alt=Click
+            src="/img/dot/color5.gif" 
+            width=10 border=0></a> <a href="javascript:setColor('E9EBFE')"><img 
+            height=10 alt=Click
+            src="/img/dot/color6.gif" 
+            width=10 border=0></a> <a href="javascript:setColor('EAEAEF')"><img 
+            height=10 alt=Click
+            src="/img/dot/color7.gif" 
+            width=10 border=0></a> <a href="javascript:setColor('FFFFFF')"><img 
+            height=10 alt=Click
+            src="/img/dot/color8.gif" 
+            width=10 border=0></a>
+                  <script language="JavaScript">
+	function doZoom(size){
+		document.all("NewsContent0").style.fontSize=size+'px';
+	}
+function setColor(color_val){
+document.getElementById('NewsContent0').style.backgroundColor=color_val;
+}
+      </script>
+                </td>
+              </tr>
+              <tr>
+                <td><span class="style6 STYLE2"><font color="#666666">发布日期： (^@InfPub@^)</font></span></td>
+                <td align="center"><A href="javascript:doZoom(16)">[大]</A> <A href="javascript:doZoom(14)">[中]</A> <A href="javascript:doZoom(12)">[小]</A></td>
+              </tr>
+            </table>
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td id="NewsContent0"><p><span class="cont01">(^@InfContent@^)</span></p></td>
+        </tr>
+        <tr>
+          <td height='8'><hr></td>
+        </tr>
+        <tr>
+          <td><table width="95%" border="0" align="center" cellpadding="2" cellspacing="2">
+              <tr>
+                <td>来源: (^@InfFrom@^)</td>
+                <td width="30%" align="center"><a 
+	  href="javascript:window.close()">[关闭]</a> &nbsp; <a
+		    href="/news/nsend.asp?PH=(^@InfPath@^)&Title=(^@InfSubject@^)" target="_blank">[推荐]</a></td>
+              </tr>
+            </table>
+            <div align="center"></div></td>
+        </tr>
+        <tr>
+          <td height="8"></td>
+        </tr>
+      </table>
+      <TABLE cellSpacing=1 cellPadding=1 width="100%" align=center 
+            bgColor=#BEBEBE border=0>
+        <form name="fm01" id="fm01" action="/news/nremark.asp?" method="post">
+          <TBODY>
+            <TR bgColor=#F6F6F6>
+              <TD align=middle><P>&nbsp;</P></TD>
+              <TD align=right><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td>&nbsp;&nbsp;<STRONG>添加评论</STRONG></td>
+                    <td width="30%" align="center"><a
+		    href="/news/nremark.asp?ID=(^@InfKeyID@^)" target="_blank">共有评论<span id='Peace_SetRemark'>[(000)]</span>篇</a></td>
+                  </tr>
+                </table>
+                <div align="left"></div></TD>
+            </TR>
+            <TR bgColor=#ffffff>
+              <TD align=middle noWrap bgColor=#F0F0F0>主题</TD>
+              <TD bgColor=#ffffff>&nbsp;&nbsp;
+                <input name="RemSubject" type="text" id="RemSubject" value="评论: (^@InfSubject@^)" size="60" maxlength="120">
+              </TD>
+            </TR>
+            <TR bgColor=#ffffff>
+              <TD align=middle bgColor=#F0F0F0>内容</TD>
+              <TD bgColor=#ffffff>&nbsp;&nbsp;
+                <TEXTAREA id=RemContent name=RemContent rows=4 cols=50></TEXTAREA>
+              </TD>
+            </TR>
+            <TR bgColor=#ffffff>
+              <TD align=middle noWrap bgColor=#F0F0F0>姓名</TD>
+              <TD bgColor=#ffffff>&nbsp;&nbsp;
+                <INPUT id=RemName maxLength=12 size=18 
+                  name=RemName>
+&nbsp; UBB
+                <SELECT id=RemUBB name=RemUBB>
+                  <OPTION value=Y>Y:起用</OPTION>
+                  <OPTION 
+                    value=N>Y:禁用</OPTION>
+                </SELECT>
+&nbsp;&nbsp;&nbsp;<a href="/about/help.asp#UbbEdit" target="_blank">帮助&gt;&gt;&gt;</a></TD>
+            </TR>
+            <TR bgColor=#ffffff>
+              <TD align=middle noWrap bgColor=#F0F0F0>贴图</TD>
+              <TD bgColor=#ffffff>&nbsp;&nbsp;
+                <INPUT id=ImgTitle 
+                  onblur=ShowTempImg(this) maxLength=120 size=60 name=ImgTitle>
+              </TD>
+            </TR>
+            <TR bgColor=#ffffff>
+              <TD align=middle noWrap bgColor=#F0F0F0>图片属性</TD>
+              <TD bgColor=#ffffff>&nbsp;&nbsp;
+                <SELECT id=ImgAlign name=ImgAlign>
+                  <OPTION value=M selected>M:居中</OPTION>
+                  <OPTION 
+                    value=L>L:靠左</OPTION>
+                  <OPTION value=R>R:靠右</OPTION>
+                  <OPTION 
+                    value=B>B:底部</OPTION>
+                </SELECT>
+&nbsp;&nbsp;&nbsp;&nbsp;贴图大小
+                <INPUT id=ImgWidth maxLength=4 size=6 value=1 name=ImgWidth>
+                x
+                <INPUT id=ImgHeight maxLength=4 size=6 value=1 name=ImgHeight>
+              </TD>
+            </TR>
+            <TR bgColor=#ffffff>
+              <TD align=middle noWrap bgColor=#F0F0F0><input name="send" type="hidden" id="send" value="send">
+                <input name="ChkCode" type="hidden" id="ChkCode" value="PeaceRemark"></TD>
+              <TD bgColor=#ffffff><div align="center">
+                  <INPUT id=Button1 onclick=chkData() type=button value=修改信息 name=view>
+                  　
+                  <INPUT id=Button1 type=reset value=重新填写 name=view>
+                  <INPUT 
+                  id=KW type=hidden name=KW>
+                  <input name="ID" type="hidden" id="ID" value="(^@InfKeyID@^)">
+                </div></TD>
+            </TR>
+        </FORM>
+      </TABLE></td>
+  </tr>
+</table>
+<script language="javascript" src="/home/news/file_read.asp?ID=(^@InfKeyID@^)"></script>
+<span id="TempImg"></span>
+<script >function ShowTempImg(o){  tmpVal = o.value;  tmpVal = tmpVal.toUpperCase();   
+if (tmpVal.substring(tmpVal.lastIndexOf('.'))=='.SWF'){  TempImg.innerHTML="<embed src='"+tmpVal+"' quality=high></embed>";   
+}else{  TempImg.innerHTML="<img src='"+tmpVal+"' xwidth=120 border='0' align='absmiddle'>";}}
+</script>
+<script language='javascript'> 
+function chkData() {       
+var eflag = 0;       
+for(i=0;i<1;i++)        
+ {  /*///////////////////////// Start For ///////////////*/ 
+ if (document.fm01.RemSubject.value.length==0)    
+ {        alert(" 主题 不能为空！");      document.fm01.RemSubject.focus();     eflag = 1; break;   } 
+ if (document.fm01.RemContent.value.length==0)    
+ {        alert(" 内容 不能为空！"); 	 document.fm01.RemContent.focus();     
+ eflag = 1; break;   } if (document.fm01.RemContent.value.length>=1200)    
+ {        alert(" 内容 不能超过 1.2 K字!");      eflag = 1; break;   }         
+ }  /*///////////////////////// End For /////////////////*/         
+if (eflag==0){ document.fm01.submit(); }}
+</script>
+<!--[^#include file="../../../../news/inc_bot3.asp"^]-->

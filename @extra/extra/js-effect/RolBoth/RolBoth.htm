@@ -1,0 +1,58 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>RolBoth</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<SCRIPT language=JavaScript src="RolBoth.js"></SCRIPT>
+<SCRIPT language=JavaScript src="../../../inc/home/jsInfo.js"></SCRIPT>
+<META http-equiv=Page-Enter content=blendTrans(Duration=0.5)>
+<META http-equiv=Page-Exit content=blendTrans(Duration=0.5)>
+</HEAD>
+<BODY>
+<TABLE cellSpacing=0 cellPadding=0 width="320" border=0>
+  <TR>
+    <TD width=22><IMG 
+            onmouseover="RollBDiv.direction='right'; RollBDiv.state='scroll'" 
+            style="CURSOR:pointer;" onMouseOut="RollBDiv.state='stop'" height=19 
+            src="Roll_left.gif" width=18></TD>
+    <TD><DIV id=RollBDiv
+            style="width:320px; overflow:hidden; BORDER-RIGHT: buttonface 0px solid; BORDER-TOP: buttonface 0px solid; BORDER-LEFT: buttonface 0px solid; BORDER-BOTTOM: buttonface 0px solid">
+        <TABLE border=0 ctlSpacing="0">
+          <TR align=middle>
+            <TD style="PADDING: 2px 1px" align=left><A 
+                  href="javascript:Roll_Change('../../../img/logo/y_biaoshi.gif')"><IMG 
+                  onmouseover=RollColor(this) 
+                  style="BORDER-RIGHT: #bfbfbf 2px solid; BORDER-TOP: #bfbfbf 2px solid; FILTER: Gray(); BORDER-LEFT: #bfbfbf 2px solid; BORDER-BOTTOM: #bfbfbf 2px solid" 
+                  onclick=RollCFix(this) onmouseout=RollCFade(this) height=80 
+                  src="../../../img/logo/y_biaoshi.gif" width=80 border=0></A></TD>
+            <TD style="PADDING: 2px 1px" align=left><A 
+                  href="javascript:Roll_Change('images/cp/computer/t2b.jpg')"><IMG 
+                  onmouseover=RollColor(this) 
+                  style="BORDER-RIGHT: #bfbfbf 2px solid; BORDER-TOP: #bfbfbf 2px solid; FILTER: Gray(); BORDER-LEFT: #bfbfbf 2px solid; BORDER-BOTTOM: #bfbfbf 2px solid" 
+                  onclick=RollCFix(this) onmouseout=RollCFade(this) height=80 
+                  src="t2s.jpg" width=80 border=0></A></TD>
+            <TD style="PADDING: 2px 1px" align=left><A 
+                  href="javascript:Roll_Change('../../../img/logo/wj_wa.gif')"><IMG 
+                  onmouseover=RollColor(this) 
+                  style="BORDER-RIGHT: #bfbfbf 2px solid; BORDER-TOP: #bfbfbf 2px solid; FILTER: Gray(); BORDER-LEFT: #bfbfbf 2px solid; BORDER-BOTTOM: #bfbfbf 2px solid" 
+                  onclick=RollCFix(this) onmouseout=RollCFade(this) height=80 
+                  src="../../../img/logo/wj_wa.gif" width=80 border=0></A></TD>
+            <TD style="PADDING: 2px 1px" align=left><A 
+                  href="javascript:Roll_Change('../../../img/logo/y_logo.gif')"><IMG 
+                  onmouseover=RollColor(this) 
+                  style="BORDER-RIGHT: #bfbfbf 2px solid; BORDER-TOP: #bfbfbf 2px solid; FILTER: Gray(); BORDER-LEFT: #bfbfbf 2px solid; BORDER-BOTTOM: #bfbfbf 2px solid" 
+                  onclick=RollCFix(this) onmouseout=RollCFade(this) height=80 
+                  src="../../../img/logo/y_logo.gif" width=80 
+              border=0></A></TD>
+          </TR>
+        </TABLE>
+        <SCRIPT language=JScript>window.onload = new Function("RollMain(document.all['RollBDiv'], 320)");</SCRIPT>
+      </DIV></TD>
+    <TD align=right width=22><IMG 
+            onmouseover="RollBDiv.direction='left'; RollBDiv.state='scroll'" 
+            style="CURSOR:pointer;" onMouseOut="RollBDiv.state='stop'" height=19 
+            src="Roll_right.gif" width=18></TD>
+  </TR>
+</TABLE>
+<IMG id="ImgShow090519" width=400 height=300 src="../../../img/logo/y_logo.gif" onload="javascript:setImgSiz2(this,400,300);">
+</BODY>
+</HTML>

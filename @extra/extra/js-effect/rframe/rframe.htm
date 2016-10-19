@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>移动内容</title>
+</head>
+<body>
+<table  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="5" align="center"><a onmouseup="movover();movstar(-1,20)" onmousedown="movover();movstar(-3,2)" 
+                  onmouseover="movstar(-1,20);" onmouseout="movover();" href="#"><img src="com_iron_arrowup.gif" width="19" height="14" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="180" height="250" valign="top"><iframe src="rcont.htm" name="content" width="160" marginwidth="0" height="246" marginheight="0" scrolling="No" frameborder="0" id="content" bordercolor="#000000"></iframe></td>
+  </tr>
+  <tr>
+    <td height="5" align="center"><a onmouseup="movover();movstar(1,20)" 
+                  onmousedown="movover();movstar(10,2)" onmouseover="movstar(1,20);" 
+                  onmouseout="movover();" href="#"><img src="com_iron_arrowdown.gif" width="19" height="13" border="0" /></a></td>
+  </tr>
+</table>
+<script language="JavaScript1.2" type="text/javascript">
+
+var movx;
+
+function movstar(a,time){
+  movx=setInterval("mov("+a+")",5);
+}
+function movover(){
+  clearInterval(movx);
+}
+function mov(a){
+  scrollx=content.document.body.scrollLeft;
+  scrolly=content.document.body.scrollTop;
+  scrolly=scrolly+a;
+  content.window.scroll(scrollx,scrolly);
+}
+
+</script>
+</body>
+</html>

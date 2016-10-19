@@ -1,0 +1,168 @@
+'///////////////////////////////////////////////////////////////////////////////
+'//              支付宝调用类
+'// 类    名:    Qlwz_AliPay
+'// 作    用:    asp通用utf-8，gb2312编码通用接口
+'// 作    者:    情留メ蚊子
+'// 技术支持:    qlwz@qq.com  QQ:540644769
+'// 官方网站:    www.94qing.com
+'///////////////////////////////////////////////////////////////////////////////
+
+
+使用说明：此类适合于utf-8，gb2312，但是使用时需要调整文本自身编码。默认utf-8
+
+**************************************************************************************************
+重要：
+关于编码。。程序默认 UTF-8
+完美支持 GB2312
+修改编码 Qlwz_AliPay 类中的 Q_Charset 一定要改成 需要修改的编码
+所有相关文件都要检查是否是要修改的编码
+**************************************************************************************************
+
+
+强烈建议，相关资料都写在类中！！！！！！！
+具体使用方法请查看 演示文件！！！！！！
+
+**************************************************************************************************
+演示文件说明：
+Cls_AliPay.asp                  -----  主要文件 类                AliPay_Class.asp
+create_direct_pay_by_user.asp   ----- 即时到账接口演示            AliPay_Demo1.asp
+trade_create_by_buyer.asp       ----- 标准双接口演示              AliPay_Demo2.asp
+Notify_Url.asp                  ----- 跳转回来的处理（get）       AliPay_Notify.asp
+Return_url.asp                  ----- 服务器返回信息处理（post）  AliPay_Return.asp
+**************************************************************************************************
+
+
+
+用法：
+
+Dim AliPay, AliPayUrl
+Set AliPay = New Qlwz_AliPay
+'**************以下部分建议在类中设置**************
+AliPay.PartnerID     = ""    '填写对应支付宝账户的合作者身份ID
+AliPay.SellerEmail   = ""    '请填写支付宝签约帐户
+AliPay.SignCode      = ""    '填写对应支付宝帐户的安全校验码
+AliPay.NotifyUrl     = "http://....../Notify_Url.asp"    '交易过程中服务器通知的页面,,,绝对路径，要求可以访问
+AliPay.ReturnUrl     = "http://....../Return_url.asp"    '付完款后跳转的页面,,,绝对路径，要求可以访问
+AliPay.Service     = "create_direct_pay_by_user"  'create_direct_pay_by_user  (即时到账) ，  trade_create_by_buyer 标准双接口
+AliPay.Charset       = "UTF-8"    '编码 默认UTF-8
+'**************以上部分建议在类中设置**************
+AliPay.Subject       = "测试商品"    '商品名称
+AliPay.Body          = "商品描述"    '商品描述
+AliPay.Price         = "0.01"        'price商品单价  0.01～50000.00 , 注：不要出现3,000.00，价格不支持","号
+AliPay.Quantity      = "1"           '商品数量
+'**************以下部分可以在类中设置**************
+AliPay.Out_Trade_No  = Year(Now())&Month(Now())&Day(Now())&Hour(Now())&Minute(Now())&Second(Now())'按时间获取的订单号
+AliPay.Discount      = "0"             '商品折扣
+AliPay.Paymethod     = "directPay"     '赋值:bankPay(网银);cartoon(卡通); directPay(余额)
+'///////////////////////以下是标准双接口设置的//////////////////////////////
+'标准双接口无论如何第一组都要保留，不可以为空
+'第一组
+AliPay.logistics_fee	    =	"0.00"			'物流配送费用  0.00
+AliPay.logistics_payment  =	"BUYER_PAY"	   '物流配送费用付款方式：SELLER_PAY(卖家支付)  BUYER_PAY(买家支付)  BUYER_PAY_AFTER_RECEIVE(货到付款)
+AliPay.logistics_type	    =	"EXPRESS"		'物流配送方式：POST(平邮)、EMS(EMS)  EXPRESS(其他快递)
+'如果需要多添加几组物流方式，可以增加第二组物流参数,如果不需要，可以为空
+AliPay.logistics_fee_1    =	""			'物流配送费用  0.00
+AliPay.logistics_payment_1=	""	'物流配送费用付款方式：SELLER_PAY(卖家支付)  BUYER_PAY(买家支付)  BUYER_PAY_AFTER_RECEIVE(货到付款)
+AliPay.logistics_type_1	=	""		'物流配送方式：POST(平邮)  EMS(EMS)  EXPRESS(其他快递)
+'如果需要多添加几组物流方式，可以增加第三组物流参数,如果不需要，可以为空 ---- 没有第二组不能有第三组
+AliPay.logistics_fee_2    =	""			'物流配送费用  0.00
+AliPay.logistics_payment_2=	""	'物流配送费用付款方式：SELLER_PAY(卖家支付)  BUYER_PAY(买家支付)  BUYER_PAY_AFTER_RECEIVE(货到付款)
+AliPay.logistics_type_2	=	""		'物流配送方式：POST(平邮)  EMS(EMS)  EXPRESS(其他快递)
+'以下是可选的参数 如果没有可以为空。注意：姓名、联系地址和邮政编码 这三项要么都为空，要么都不能为空。
+AliPay.ShowUrl       =	"www.94qing.com"    '商品的演示地址
+AliPay.receive_name    =	""   '收货人姓名
+AliPay.receive_address =	""   '收货人地址
+AliPay.receive_zip     =	""   '邮编5 位戒6 位数字组成
+AliPay.receive_phone   =	""   '收货人电话
+AliPay.receive_mobile  =	""   '收货人手机 必须是11 位数字
+AliPay.buyer_email   =	""   '买家的支付宝账号
+'///////////////////////以上是标准双接口设置的//////////////////////////////
+AliPayUrl = AliPay.GetUrl()
+Set AliPay = Nothing
+Response.Redirect AliPayUrl   '跳转到支付页
+
+
+
+Notify_Url.asp-----------------说明
+post方式访问。。
+Dim AliPay, returnTxt
+Set AliPay = New Qlwz_AliPay
+'Notify_Url  返回 True  或 Flase
+'返回 True  或 Flase 后需要进一步判断才可以写入数据库！！！
+If AliPay.Notify_Url Then
+    trade_status = request.Form("trade_status")
+    out_trade_no = Request.Form("out_trade_no")
+    If trade_status = "WAIT_BUYER_PAY" Then
+        '等待买家付款   ------- 仅对标准双接口可以用
+        returnTxt	= "成功！"	
+    ElseIf trade_status = "WAIT_SELLER_SEND_GOODS" Then      
+        '买家付款成功,等待卖家发货   ------- 仅对标准双接口可以用
+        returnTxt	= "成功！"
+    ElseIf trade_status = "WAIT_BUYER_CONFIRM_GOODS" Then    
+        '卖家已发货等待买家确认   ------- 仅对标准双接口可以用
+        returnTxt	= "成功！"	
+    ElseIf trade_status = "TRADE_FINISHED" Then             
+        '交易成功结束   ------- 通用
+        returnTxt	= "成功！"		
+    Else                                                     
+        '其他交易状态通知情况
+        returnTxt	= "成功！"
+    End If
+    response.write returnTxt
+Else
+    response.write "失败！"  '这里添加处理函数
+End If
+Set AliPay = Nothing
+
+
+Return_url.asp-----------------说明
+get方式访问。。
+Dim AliPay
+Set AliPay = New Qlwz_AliPay
+'Return_url  返回 True  或 Flase
+If AliPay.Return_url Then
+    response.write "成功！"  '这里添加处理函数
+Else
+    response.write "失败！"  '这里添加处理函数
+End If
+Set AliPay = Nothing
+
+
+
+=====================================================================
+关于Notify_Url和Return_url 请查看官方相关资料
+=====================================================================
+
+**************************************************************************************************
+
+3、对支付成功的订单信息，进行数据库的操作。
+    返回的机制有两种：
+    一种 return_url 即时返回，此返回是get方式。
+    二种 notify_url 通知返回，此返回时post方式，进行服务器点对点的通知机制。
+    注意:返回的地址中不能自定义携带参数。例如 http://www.alipay.com/return_Alipay_Notify.asp?xx=test
+    更多有关返回机制及区别请查看文档。
+
+**************************************************************************************************
+
+4、如果获得返回信息
+     在指定的两种返回接收的文件中 get或post获得
+   例如：return_url：返回设置文件中的return_Alipay_Notify.asp，
+                     商户网站中传递给支付宝的订单号码-------request("out_trade_no") ,      
+                     价格-------request("price")
+         notify_url：返回设置文件中的Alipay_Notify.asp，
+                     商户网站中传递给支付宝的订单号码-------request("out_trade_no") ,      
+                     价格-------request("price")
+
+**************************************************************************************************
+
+5、为什么我的买家付款的钱到账了，而买家充值账户内没有得到货币？
+       首先确定接口中是否有做通知返回的异步处理，如果只是单纯的使用return_url 参数。
+    那么这种客户端的操作没有办法控制，重定向的过程中可能浏览器关闭等其它原因，造成页面不能被执行，进而数据库的操作语句没有被执行。
+
+**************************************************************************************************
+
+6、如果两种方式都设置，就要判断交易的订单是否有更新过，因为两种返回机制不同。可能同时返回、或者有先后，注意订单更新时候要判断订单不能个重复更新。
+    买家付完款(trade_status=TRADE_FINISHED)在此状
+态下进行数据库的更新。并返回给支付宝success。若没有得到success。
+
+**************************************************************************************************
